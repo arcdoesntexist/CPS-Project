@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.0627766">
+  <test-suite type="TestSuite" id="1032" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.062777" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1025" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.057069" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38444" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1026" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.056369" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1027" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.055921" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1028" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.055483" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="AppSessionTests" fullname="CPS.KitchenCatch.Tests.AppSessionTests" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.054029" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1002" name="ActivatedSessionBecomesPersistentSingleton" fullname="CPS.KitchenCatch.Tests.AppSessionTests.ActivatedSessionBecomesPersistentSingleton" methodname="ActivatedSessionBecomesPersistentSingleton" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1717502478" result="Failed" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.024931" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <AppSession (CPS.KitchenCatch.AppSession)>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.AppSessionTests+<ActivatedSessionBecomesPersistentSingleton>d__2.MoveNext () [0x00043] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\AppSessionTests.cs:29
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1003" name="DuplicateCannotReplaceOriginalSelectionOrStore" fullname="CPS.KitchenCatch.Tests.AppSessionTests.DuplicateCannotReplaceOriginalSelectionOrStore" methodname="DuplicateCannotReplaceOriginalSelectionOrStore" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="333734135" result="Failed" label="Error" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.003851" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.AppSessionTests+<DuplicateCannotReplaceOriginalSelectionOrStore>d__3.MoveNext () [0x00030] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\AppSessionTests.cs:37 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1006" name="InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" fullname="CPS.KitchenCatch.Tests.AppSessionTests.InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" methodname="InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="2125544922" result="Failed" label="Error" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.003768" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.AppSessionTests.InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore () [0x0006d] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\AppSessionTests.cs:88 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1005" name="InvalidSelectionDoesNotReplaceCurrentChoice" fullname="CPS.KitchenCatch.Tests.AppSessionTests.InvalidSelectionDoesNotReplaceCurrentChoice" methodname="InvalidSelectionDoesNotReplaceCurrentChoice" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1480101918" result="Failed" label="Error" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.000768" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.AppSessionTests.InvalidSelectionDoesNotReplaceCurrentChoice () [0x00014] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\AppSessionTests.cs:72 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1004" name="SceneChangesKeepSelectionAndCompletedSessionIds" fullname="CPS.KitchenCatch.Tests.AppSessionTests.SceneChangesKeepSelectionAndCompletedSessionIds" methodname="SceneChangesKeepSelectionAndCompletedSessionIds" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1125908643" result="Failed" label="Error" start-time="2026-10-08 13:28:02Z" end-time="2026-10-08 13:28:02Z" duration="0.001749" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.AppSessionTests+<SceneChangesKeepSelectionAndCompletedSessionIds>d__4.MoveNext () [0x0003e] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\AppSessionTests.cs:53 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

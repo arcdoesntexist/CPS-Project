@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.9225431">
+  <test-suite type="TestSuite" id="1092" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.922543" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1085" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.913930" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="16100" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1086" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.912000" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1087" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.910905" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1088" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.909819" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1027" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.907265" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1032" name="ViewportKeepsCanvasOnCameraAtReferenceSizeAcrossAspectRatios" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ViewportKeepsCanvasOnCameraAtReferenceSizeAcrossAspectRatios" methodname="ViewportKeepsCanvasOnCameraAtReferenceSizeAcrossAspectRatios" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="1624373677" result="Failed" start-time="2026-10-17 08:07:43Z" end-time="2026-10-17 08:07:44Z" duration="0.894095" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Screen-space text must stay pixel-aligned after viewport changes
+  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneFlowTests+<ViewportKeepsCanvasOnCameraAtReferenceSizeAcrossAspectRatios>d__7.MoveNext () [0x0029f] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSceneFlowTests.cs:240
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

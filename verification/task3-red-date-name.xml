@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.0840511">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="86" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.084051" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1103" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="86" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.071997" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="44744" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1104" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="86" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.069122" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1105" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="86" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.066748" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1106" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="86" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.063831" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1058" name="ProfileStoreTests" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="38" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.060668" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1064" name="NamesAreTrimmedAndLiteral" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.053239" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1060" name="NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1988973214" result="Passed" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.028262" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1061" name="NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="388903480" result="Passed" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.000366" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1062" name="NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="58020548" result="Passed" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.000188" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1063" name="NamesAreTrimmedAndLiteral(&quot;2026-10-08T00:00:00Z&quot;,&quot;2026-10-08T00:00:00Z&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;2026-10-08T00:00:00Z&quot;,&quot;2026-10-08T00:00:00Z&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="638802096" result="Failed" label="Error" start-time="2026-10-08 13:38:37Z" end-time="2026-10-08 13:38:37Z" duration="0.005103" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index]]></message>
+                    <stack-trace><![CDATA[  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <d49d4cb128564ee1b54a84338c98d353>:0 
+  at System.Collections.ObjectModel.ReadOnlyCollection`1[T].get_Item (System.Int32 index) [0x00000] in <d49d4cb128564ee1b54a84338c98d353>:0 
+  at CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral (System.String supplied, System.String expected) [0x00028] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:36 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

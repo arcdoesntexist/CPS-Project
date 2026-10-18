@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.023043">
+  <test-suite type="TestSuite" id="1091" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.023043" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1084" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.015961" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="7276" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1085" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.014706" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1086" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.013683" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1087" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.012499" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1027" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="3.010191" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1036" name="ProductionIdleAndRunAnimatorRepeatBeyondClipEnd" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ProductionIdleAndRunAnimatorRepeatBeyondClipEnd" methodname="ProductionIdleAndRunAnimatorRepeatBeyondClipEnd" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="849918070" result="Failed" start-time="2026-10-16 17:50:58Z" end-time="2026-10-16 17:51:01Z" duration="2.998141" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Idle blink must recur after a full cycle
+  Expected string length 9 but was 5. Strings differ at index 4.
+  Expected: "IdleBlink"
+  But was:  "IdleA"
+  ---------------^
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneFlowTests+<ProductionIdleAndRunAnimatorRepeatBeyondClipEnd>d__11.MoveNext () [0x00123] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSceneFlowTests.cs:438
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

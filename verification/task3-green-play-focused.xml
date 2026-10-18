@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.0727428">
+  <test-suite type="TestSuite" id="1032" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.072743" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1025" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.064191" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34912" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1026" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.063491" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1027" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.063000" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1028" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.062466" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="AppSessionTests" fullname="CPS.KitchenCatch.Tests.AppSessionTests" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.060806" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1002" name="ActivatedSessionBecomesPersistentSingleton" fullname="CPS.KitchenCatch.Tests.AppSessionTests.ActivatedSessionBecomesPersistentSingleton" methodname="ActivatedSessionBecomesPersistentSingleton" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1503153465" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.024665" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DuplicateCannotReplaceOriginalSelectionOrStore" fullname="CPS.KitchenCatch.Tests.AppSessionTests.DuplicateCannotReplaceOriginalSelectionOrStore" methodname="DuplicateCannotReplaceOriginalSelectionOrStore" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1803271474" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.005603" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" fullname="CPS.KitchenCatch.Tests.AppSessionTests.InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" methodname="InitializeLoadsProfilesWithoutNavigatingAndCannotReplaceStore" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="1762133305" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.006966" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="InvalidSelectionDoesNotReplaceCurrentChoice" fullname="CPS.KitchenCatch.Tests.AppSessionTests.InvalidSelectionDoesNotReplaceCurrentChoice" methodname="InvalidSelectionDoesNotReplaceCurrentChoice" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="594680326" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.000707" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="SceneChangesKeepSelectionAndCompletedSessionIds" fullname="CPS.KitchenCatch.Tests.AppSessionTests.SceneChangesKeepSelectionAndCompletedSessionIds" methodname="SceneChangesKeepSelectionAndCompletedSessionIds" classname="CPS.KitchenCatch.Tests.AppSessionTests" runstate="Runnable" seed="121669122" result="Passed" start-time="2026-10-08 13:30:56Z" end-time="2026-10-08 13:30:56Z" duration="0.008144" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

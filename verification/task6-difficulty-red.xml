@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.0689878">
+  <test-suite type="TestSuite" id="1082" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="61" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.068988" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1075" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="61" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.059980" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="13780" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1076" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="61" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.058163" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1077" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="61" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.056987" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1078" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="61" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.055821" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1046" name="GameUITests" fullname="CPS.KitchenCatch.Tests.GameUITests" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.052916" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1049" name="ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" fullname="CPS.KitchenCatch.Tests.GameUITests.ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" methodname="ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="110572616" result="Failed" start-time="2026-10-10 07:37:05Z" end-time="2026-10-10 07:37:05Z" duration="0.036983" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: not equal to RGBA(1.000, 1.000, 1.000, 1.000)
+  But was:  RGBA(1.000, 1.000, 1.000, 1.000)
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameUITests.ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus () [0x00070] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameUITests.cs:84
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

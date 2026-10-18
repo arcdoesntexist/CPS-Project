@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.0847913">
+  <test-suite type="TestSuite" id="1101" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.084791" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1094" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.072334" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="41572" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1095" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.069061" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1096" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.067304" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1097" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.064655" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1084" name="LocalDemoAudioTests" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.061608" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1087" name="EnsureExistsKeepsOneDirectorAndDoesNotDuplicateSources" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.EnsureExistsKeepsOneDirectorAndDoesNotDuplicateSources" methodname="EnsureExistsKeepsOneDirectorAndDoesNotDuplicateSources" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="1782878028" result="Passed" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.025272" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1086" name="InteractionUnlocksSceneMusicWithLoopAndApprovedVolumes" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.InteractionUnlocksSceneMusicWithLoopAndApprovedVolumes" methodname="InteractionUnlocksSceneMusicWithLoopAndApprovedVolumes" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="2081132476" result="Failed" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.011053" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <Lobby (UnityEngine.AudioClip)>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.LocalDemoAudioTests.InteractionUnlocksSceneMusicWithLoopAndApprovedVolumes () [0x0005e] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\LocalDemoAudioTests.cs:61
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1089" name="MascotLoadsOptionalTerminalClipsByConvention" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.MascotLoadsOptionalTerminalClipsByConvention" methodname="MascotLoadsOptionalTerminalClipsByConvention" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="136245026" result="Failed" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.003479" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <Triumph (UnityEngine.AudioClip)>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.LocalDemoAudioTests.MascotLoadsOptionalTerminalClipsByConvention () [0x00049] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\LocalDemoAudioTests.cs:128
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1085" name="MissingLocalAssetsRemainSilentAcrossSupportedScenes" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.MissingLocalAssetsRemainSilentAcrossSupportedScenes" methodname="MissingLocalAssetsRemainSilentAcrossSupportedScenes" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="1812964111" result="Passed" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.001070" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1088" name="RunningLoopStartsOnceAndStopsForIdleTerminalResetAndDisable" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.RunningLoopStartsOnceAndStopsForIdleTerminalResetAndDisable" methodname="RunningLoopStartsOnceAndStopsForIdleTerminalResetAndDisable" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="513868014" result="Failed" start-time="2026-10-18 10:54:23Z" end-time="2026-10-18 10:54:23Z" duration="0.002248" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <Running (UnityEngine.AudioClip)>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.LocalDemoAudioTests.RunningLoopStartsOnceAndStopsForIdleTerminalResetAndDisable () [0x00051] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\LocalDemoAudioTests.cs:95
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T02:20:05+07:00",
+  "title": "Design System: CPS Kitchen Catch",
+  "extensions": {
+    "colorMeta": {
+      "cocoa-ink": { "role": "primary", "displayName": "Cocoa ink", "canonical": "#381A12" },
+      "deep-brown": { "role": "neutral", "displayName": "Deep brown", "canonical": "#61331F" },
+      "panel-cream": { "role": "neutral", "displayName": "Panel cream", "canonical": "#FCE8BA" },
+      "light-cream": { "role": "neutral", "displayName": "Light cream", "canonical": "#FFF7D9" },
+      "action-orange": { "role": "primary", "displayName": "Engineer orange", "canonical": "#FA7D30" },
+      "rank-letter-cream": { "role": "neutral", "displayName": "Rank cream", "canonical": "#FFF5D1" },
+      "rank-accent-gold": { "role": "secondary", "displayName": "Rank accent gold", "canonical": "#FFE885" },
+      "rank-d": { "role": "secondary", "displayName": "D rank plate", "canonical": "#735C4A" },
+      "rank-c": { "role": "secondary", "displayName": "C rank plate", "canonical": "#F07324" },
+      "rank-b": { "role": "secondary", "displayName": "B rank plate", "canonical": "#E03D24" },
+      "rank-a": { "role": "secondary", "displayName": "A rank plate", "canonical": "#DE2E66" },
+      "rank-s": { "role": "secondary", "displayName": "S rank plate", "canonical": "#F59C0D" },
+      "rank-ss": { "role": "secondary", "displayName": "SS rank plate", "canonical": "#B81A6E" },
+      "rank-sss": { "role": "secondary", "displayName": "SSS rank plate", "canonical": "#05947A" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Menu display", "purpose": "The menu title at the 1920×1080 reference canvas; the current font is temporary." },
+      "headline": { "displayName": "Timer headline", "purpose": "Centered gameplay timer." },
+      "title": { "displayName": "HUD title", "purpose": "Score and hand readouts." },
+      "body": { "displayName": "UI body", "purpose": "Instructions, button labels, status, and statistics." },
+      "rank-mark": { "displayName": "Rank mark", "purpose": "Live bold badge letter; SS and SSS shrink to fit." },
+      "rank-name": { "displayName": "Rank name", "purpose": "Live bold rank name beside the mark." }
+    },
+    "motion": [
+      { "name": "button-state-fade", "value": "0.08s", "purpose": "Unity uGUI button ColorBlock fade." },
+      { "name": "rank-callout", "value": "1.1s", "purpose": "Promotion callout visibility at the right edge." },
+      { "name": "ivy-sway", "value": "sin(t × 1.2) × 2.5°", "purpose": "Subtle ambient ivy rotation." },
+      { "name": "whisk-sway", "value": "sin(t × 0.9 + 0.8) × 2°", "purpose": "Subtle ambient whisk rotation." },
+      { "name": "ladle-sway", "value": "sin(t × 0.8 + 1.7) × 1.5°", "purpose": "Subtle ambient ladle rotation." }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "The Warm Kitchen Stage",
+    "overview": "The shipped interface sits over an original, warm kitchen stage. The playfield is the main experience: a cream mascot runs along the front wooden counter while strongly outlined food and rubbish fall through a quiet central area. Menu, pause, and results temporarily take over that stage with large cream panels framed in wood. The persistent HUD is simpler and flatter so it stays readable during play.\n\nThe Unity implementation uses URP sprites for the scene and Unity uGUI for live labels, buttons, fields, rank text, and overlays. Concept art sets the visual direction; the six imported production PNGs and authored prefabs are the reusable materials. This document records the production UI visible in the final Task 7 captures, not the more ornate typography or central rank banner in the concept image.",
+    "keyCharacteristics": [
+      "A warm cream, honey wood, cocoa, and orange base with rank colors reserved for escalation.",
+      "Heavy stepped outlines on the mascot and interactive items; softer, lower-contrast scenery behind them.",
+      "A fixed 16:9 game and UI viewport with a clear central falling field.",
+      "Live, compact rank lettering and short edge callouts, separate from the score and HP."
+    ],
+    "rules": [
+      { "name": "The Quiet Field Rule", "body": "The background stays subordinate to the mascot and falling items; reserve stronger live color for actions, hazards, and rising ranks.", "section": "colors" },
+      { "name": "The Live Label Rule", "body": "Keep profile, score, difficulty, rank, instructions, and results as editable Unity text over artwork. Keep profile names plain text with rich-text interpretation disabled. Verify Thai combining marks only after the licensed font is supplied.", "section": "typography" },
+      { "name": "The Center-Clear Rule", "body": "Keep persistent HUD and rank messages at the edges; the concept's large central rank banner is not a gameplay layout rule.", "section": "layout" },
+      { "name": "The Selected-Panel Rule", "body": "Use the wood-rim sprite for the two main menu cards, Pause card, and Results card. Keep inner statistics and compact gameplay HUD blocks simple; do not frame every field with wood.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** keep the warm kitchen raster and wooden running surface visible beneath the HUD.",
+      "**Do** keep the rank mark, exact name, color, and stepped accents together inside the compact edge badge.",
+      "**Do** keep `IoTE` exactly cased and readable when the mascot changes facing.",
+      "**Do** label keyboard values as simulated input and unavailable force as `— / Sensor not connected`."
+    ],
+    "donts": [
+      "**Don't** use a full concept mockup as a gameplay background or bake live labels into panel art.",
+      "**Don't** cover falling food or rubbish with a central rank banner or oversized callout.",
+      "**Don't** treat the temporary `LegacyRuntime.ttf`, its Thai shaping, or any unsupplied audio as production-approved.",
+      "**Don't** claim WebGL interaction, browser frame rate, or full animation timing from static Unity captures."
+    ]
+  }
+}

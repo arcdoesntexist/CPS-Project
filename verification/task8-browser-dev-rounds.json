@@ -1,0 +1,216 @@
+{
+  "url": "http://127.0.0.1:8124/",
+  "capturedAtUtc": "2026-10-17T19:15:48.595Z",
+  "metrics": [
+    "CPS_DEV_METRICS difficulty=Easy end=Triumph target=60 frames=304 elapsed=2.115 fps=143.74 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=301 maxGcBytes=2048\n",
+    "CPS_DEV_METRICS difficulty=Normal end=Triumph target=60 frames=304 elapsed=2.115 fps=143.74 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=298 maxGcBytes=1372\n",
+    "CPS_DEV_METRICS difficulty=Hard end=Triumph target=60 frames=304 elapsed=2.115 fps=143.74 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=299 maxGcBytes=1380\n",
+    "CPS_DEV_METRICS difficulty=Easy end=HpDepleted target=60 frames=304 elapsed=2.115 fps=143.74 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=298 maxGcBytes=1364\n",
+    "CPS_DEV_METRICS difficulty=Normal end=HpDepleted target=60 frames=306 elapsed=2.129 fps=143.73 avgFrameMs=6.958 maxFrameMs=8.000 avgGcBytes=298 maxGcBytes=1372\n",
+    "CPS_DEV_METRICS difficulty=Hard end=HpDepleted target=60 frames=305 elapsed=2.122 fps=143.73 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=299 maxGcBytes=1380\n",
+    "CPS_DEV_METRICS difficulty=Easy end=HpDepleted target=30 frames=693 elapsed=4.821 fps=143.75 avgFrameMs=6.957 maxFrameMs=9.000 avgGcBytes=304 maxGcBytes=1364\n",
+    "CPS_DEV_METRICS difficulty=Easy end=HpDepleted target=60 frames=694 elapsed=4.828 fps=143.75 avgFrameMs=6.957 maxFrameMs=8.000 avgGcBytes=304 maxGcBytes=1364\n"
+  ],
+  "consoleErrors": [
+    "ERROR: Shader ",
+    "ERROR: Shader "
+  ],
+  "shaderEvents": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "ERROR: Shader "
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792264444961.369,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "6",
+              "url": "http://127.0.0.1:8124/Build/WebGL-Dev.framework.js",
+              "lineNumber": 2507,
+              "columnNumber": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "ERROR: Shader "
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792264444980.721,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "6",
+              "url": "http://127.0.0.1:8124/Build/WebGL-Dev.framework.js",
+              "lineNumber": 2507,
+              "columnNumber": 13
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "performance": [
+    {
+      "name": "Timestamp",
+      "value": 110398.270656
+    },
+    {
+      "name": "AudioHandlers",
+      "value": 1
+    },
+    {
+      "name": "AudioWorkletProcessors",
+      "value": 0
+    },
+    {
+      "name": "Documents",
+      "value": 1
+    },
+    {
+      "name": "Frames",
+      "value": 1
+    },
+    {
+      "name": "JSEventListeners",
+      "value": 88
+    },
+    {
+      "name": "LayoutObjects",
+      "value": 16
+    },
+    {
+      "name": "MediaKeySessions",
+      "value": 0
+    },
+    {
+      "name": "MediaKeys",
+      "value": 0
+    },
+    {
+      "name": "Nodes",
+      "value": 99
+    },
+    {
+      "name": "Resources",
+      "value": 6
+    },
+    {
+      "name": "ContextLifecycleStateObservers",
+      "value": 27
+    },
+    {
+      "name": "V8PerContextDatas",
+      "value": 1
+    },
+    {
+      "name": "WorkerGlobalScopes",
+      "value": 0
+    },
+    {
+      "name": "UACSSResources",
+      "value": 0
+    },
+    {
+      "name": "RTCPeerConnections",
+      "value": 0
+    },
+    {
+      "name": "ResourceFetchers",
+      "value": 1
+    },
+    {
+      "name": "AdSubframes",
+      "value": 0
+    },
+    {
+      "name": "DetachedScriptStates",
+      "value": 0
+    },
+    {
+      "name": "ArrayBufferContents",
+      "value": 13
+    },
+    {
+      "name": "LayoutCount",
+      "value": 0
+    },
+    {
+      "name": "RecalcStyleCount",
+      "value": 2
+    },
+    {
+      "name": "LayoutDuration",
+      "value": 0
+    },
+    {
+      "name": "RecalcStyleDuration",
+      "value": 0.000098
+    },
+    {
+      "name": "DevToolsCommandDuration",
+      "value": 0.000015
+    },
+    {
+      "name": "ScriptDuration",
+      "value": 25.311027
+    },
+    {
+      "name": "V8CompileDuration",
+      "value": 0
+    },
+    {
+      "name": "TaskDuration",
+      "value": 27.62701
+    },
+    {
+      "name": "TaskOtherDuration",
+      "value": 2.31587
+    },
+    {
+      "name": "ThreadTime",
+      "value": 27.263175
+    },
+    {
+      "name": "ProcessTime",
+      "value": 41.781069
+    },
+    {
+      "name": "JSHeapUsedSize",
+      "value": 18670020
+    },
+    {
+      "name": "JSHeapTotalSize",
+      "value": 19750912
+    },
+    {
+      "name": "FirstMeaningfulPaint",
+      "value": 110293.133259
+    },
+    {
+      "name": "DomContentLoaded",
+      "value": 110292.93229
+    },
+    {
+      "name": "NavigationStart",
+      "value": 110292.825665
+    }
+  ]
+}

@@ -1,0 +1,1788 @@
+{
+  "state": {
+    "ready": "complete",
+    "loading": "none",
+    "canvas": {
+      "x": 471,
+      "y": 171,
+      "width": 960,
+      "height": 600,
+      "bufferWidth": 960,
+      "bufferHeight": 600
+    }
+  },
+  "raf": {
+    "frames": 719,
+    "elapsedMs": 5002.400000000001,
+    "fps": 143.7310091156245,
+    "meanFrameMs": 6.9574408901251745,
+    "maxFrameMs": 7.600000000000364
+  },
+  "metrics": [
+    {
+      "name": "Timestamp",
+      "value": 90321.217418
+    },
+    {
+      "name": "AudioHandlers",
+      "value": 1
+    },
+    {
+      "name": "AudioWorkletProcessors",
+      "value": 0
+    },
+    {
+      "name": "Documents",
+      "value": 1
+    },
+    {
+      "name": "Frames",
+      "value": 1
+    },
+    {
+      "name": "JSEventListeners",
+      "value": 44
+    },
+    {
+      "name": "LayoutObjects",
+      "value": 12
+    },
+    {
+      "name": "MediaKeySessions",
+      "value": 0
+    },
+    {
+      "name": "MediaKeys",
+      "value": 0
+    },
+    {
+      "name": "Nodes",
+      "value": 53
+    },
+    {
+      "name": "Resources",
+      "value": 5
+    },
+    {
+      "name": "ContextLifecycleStateObservers",
+      "value": 6
+    },
+    {
+      "name": "V8PerContextDatas",
+      "value": 1
+    },
+    {
+      "name": "WorkerGlobalScopes",
+      "value": 0
+    },
+    {
+      "name": "UACSSResources",
+      "value": 0
+    },
+    {
+      "name": "RTCPeerConnections",
+      "value": 0
+    },
+    {
+      "name": "ResourceFetchers",
+      "value": 1
+    },
+    {
+      "name": "AdSubframes",
+      "value": 0
+    },
+    {
+      "name": "DetachedScriptStates",
+      "value": 0
+    },
+    {
+      "name": "ArrayBufferContents",
+      "value": 5
+    },
+    {
+      "name": "LayoutCount",
+      "value": 0
+    },
+    {
+      "name": "RecalcStyleCount",
+      "value": 0
+    },
+    {
+      "name": "LayoutDuration",
+      "value": 0
+    },
+    {
+      "name": "RecalcStyleDuration",
+      "value": 0
+    },
+    {
+      "name": "DevToolsCommandDuration",
+      "value": 0.000402
+    },
+    {
+      "name": "ScriptDuration",
+      "value": 1.288904
+    },
+    {
+      "name": "V8CompileDuration",
+      "value": 0
+    },
+    {
+      "name": "TaskDuration",
+      "value": 1.43894
+    },
+    {
+      "name": "TaskOtherDuration",
+      "value": 0.149634
+    },
+    {
+      "name": "ThreadTime",
+      "value": 1.440054
+    },
+    {
+      "name": "ProcessTime",
+      "value": 6.359261
+    },
+    {
+      "name": "JSHeapUsedSize",
+      "value": 14144548
+    },
+    {
+      "name": "JSHeapTotalSize",
+      "value": 16744448
+    },
+    {
+      "name": "FirstMeaningfulPaint",
+      "value": 90309.331022
+    },
+    {
+      "name": "DomContentLoaded",
+      "value": 90309.252496
+    },
+    {
+      "name": "NavigationStart",
+      "value": 90309.017986
+    }
+  ],
+  "events": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[UnityCache] 'http://127.0.0.1:8123/Build/WebGL.data.br' successfully downloaded and stored in the browser cache"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462226.357,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "U",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:8123/Build/WebGL.loader.js",
+              "lineNumber": 0,
+              "columnNumber": 6759
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.557,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.652,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.666,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.677,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.695,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.716,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.729,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.746,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.759,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.779,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.793,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.804,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.816,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.826,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.842,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.859,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.87,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.883,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.895,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.904,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.916,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.927,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.943,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.956,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.966,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462238.978,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Input System module state changed to: Initialized.\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462294.092,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Initialized fallback backend.\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462295.908,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Id: 0xdecafbad\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462295.938,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Loading player data from data.unity3d\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462297.113,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Initialize engine version: 6000.3.25f1 (e1dba0a9aba4)\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462302.287,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Subsystems] Discovering subsystems at path UnitySubsystems\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462302.753,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Creating WebGL 2.0 context."
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462303.886,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "print",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:8123/Build/WebGL.loader.js",
+              "lineNumber": 0,
+              "columnNumber": 1311
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Renderer: WebKit WebGL\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462319.929,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Vendor:   WebKit\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462319.958,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462319.965,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "GLES:     3\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462319.972,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462319.998,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_stencil_texturing\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462320.012,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462327.698,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Selected backend.\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.197,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Name: PhysX\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.232,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Id: 0xf2b8ea05\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.239,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] SDK Version: 4.1.2\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.245,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Integration Version: 1.0.0\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.252,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Physics::Module] Threading Mode: Single-Threaded\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462420.263,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "ERROR: Shader "
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462498.754,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462498.819,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "ERROR: Shader "
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462519.747,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462519.797,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "<b>[App UI]</b> Unable to find an AppUISettings instance, creating a default one...\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462535.88,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36536
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Input System initialize...\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462549.556,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "UnloadTime: 1.500000 ms\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462567.345,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Audio context resumed after 0.235 seconds."
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244462616.219,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "WEBAudio.audioContext.onstatechange",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 125473
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "UnloadTime: 1.300000 ms\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244464788.044,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Unloading 4 Unused Serialized files (Serialized files now loaded: 0)\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244464986.172,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3378.\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244465001.608,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "Total: 10.199999 ms (FindLiveObjects: 0.399999 ms CreateObjectMapping: 0.500000 ms MarkObjects: 9.100001 ms  DeleteObjects: 0.199999 ms)\n\n"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1792244465001.657,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "_JS_Log_Dump",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+              "lineNumber": 8,
+              "columnNumber": 36575
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.256,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.29,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.302,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.887,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.912,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "rendering",
+          "level": "warning",
+          "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+          "timestamp": 1792244462322.927,
+          "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+          "lineNumber": 8,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "_glGetInternalformativ",
+                "scriptId": "5",
+                "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+                "lineNumber": 8,
+                "columnNumber": 258061
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

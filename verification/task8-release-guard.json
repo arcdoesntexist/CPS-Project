@@ -1,0 +1,77 @@
+{
+  "state": {
+    "ready": "complete",
+    "loading": "none",
+    "canvas": {
+      "x": 471,
+      "y": 171,
+      "width": 960,
+      "height": 600,
+      "bufferWidth": 960,
+      "bufferHeight": 600
+    }
+  },
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8123/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:8123/Build/WebGL.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:8123/Build/WebGL.framework.js.br",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:8123/Build/WebGL.wasm.br",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:8123/Build/WebGL.data.br",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:8123/TemplateData/favicon.ico",
+      "status": 200,
+      "mimeType": "image/x-icon"
+    }
+  ],
+  "errors": []
+}

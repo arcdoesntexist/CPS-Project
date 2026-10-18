@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.0626965">
+  <test-suite type="TestSuite" id="1089" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="67" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.062697" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1082" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="67" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.053741" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29080" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1083" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="67" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.051502" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1084" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="67" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.049707" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1085" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="67" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.048098" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1077" name="PresentationTests" fullname="CPS.KitchenCatch.Tests.PresentationTests" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.044845" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1081" name="AmbientPropsNeverAcquireGameplayColliders" fullname="CPS.KitchenCatch.Tests.PresentationTests.AmbientPropsNeverAcquireGameplayColliders" methodname="AmbientPropsNeverAcquireGameplayColliders" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="846838065" result="Failed" label="Error" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.008506" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.PresentationTests.AmbientPropsNeverAcquireGameplayColliders () [0x00011] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:89 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1079" name="DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" fullname="CPS.KitchenCatch.Tests.PresentationTests.DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" methodname="DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="300264893" result="Failed" label="Error" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.008677" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.PresentationTests.DeathBurstContainsExactlyFourDecorativeColliderFreeObjects () [0x0002d] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:40 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1078" name="LeftMovementFlipsBodyButKeepsIoTEHatReadable" fullname="CPS.KitchenCatch.Tests.PresentationTests.LeftMovementFlipsBodyButKeepsIoTEHatReadable" methodname="LeftMovementFlipsBodyButKeepsIoTEHatReadable" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="371228609" result="Failed" label="Error" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.004778" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.PresentationTests.LeftMovementFlipsBodyButKeepsIoTEHatReadable () [0x0005f] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:20 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1080" name="ResetRemovesDeathTintAndDissolveAndReturnsToIdle" fullname="CPS.KitchenCatch.Tests.PresentationTests.ResetRemovesDeathTintAndDissolveAndReturnsToIdle" methodname="ResetRemovesDeathTintAndDissolveAndReturnsToIdle" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="760247931" result="Failed" label="Error" start-time="2026-10-10 13:07:58Z" end-time="2026-10-10 13:07:58Z" duration="0.000824" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.PresentationTests.ResetRemovesDeathTintAndDissolveAndReturnsToIdle () [0x0006b] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:68 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

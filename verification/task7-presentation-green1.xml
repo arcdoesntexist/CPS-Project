@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.0884336">
+  <test-suite type="TestSuite" id="1089" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="67" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.088434" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1082" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="67" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.078129" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18896" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1083" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="67" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.075795" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1084" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="67" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.074092" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1085" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="67" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.072467" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1077" name="PresentationTests" fullname="CPS.KitchenCatch.Tests.PresentationTests" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.068866" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1081" name="AmbientPropsNeverAcquireGameplayColliders" fullname="CPS.KitchenCatch.Tests.PresentationTests.AmbientPropsNeverAcquireGameplayColliders" methodname="AmbientPropsNeverAcquireGameplayColliders" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="990088377" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.016109" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" fullname="CPS.KitchenCatch.Tests.PresentationTests.DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" methodname="DeathBurstContainsExactlyFourDecorativeColliderFreeObjects" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="253546195" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.021546" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="LeftMovementFlipsBodyButKeepsIoTEHatReadable" fullname="CPS.KitchenCatch.Tests.PresentationTests.LeftMovementFlipsBodyButKeepsIoTEHatReadable" methodname="LeftMovementFlipsBodyButKeepsIoTEHatReadable" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="1719515846" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.009896" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1080" name="ResetRemovesDeathTintAndDissolveAndReturnsToIdle" fullname="CPS.KitchenCatch.Tests.PresentationTests.ResetRemovesDeathTintAndDissolveAndReturnsToIdle" methodname="ResetRemovesDeathTintAndDissolveAndReturnsToIdle" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="81733857" result="Passed" start-time="2026-10-10 13:11:19Z" end-time="2026-10-10 13:11:19Z" duration="0.003886" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

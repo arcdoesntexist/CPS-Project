@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Failed(Child)" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.0634872">
+  <test-suite type="TestSuite" id="1066" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.063487" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1059" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.056170" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="44364" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1060" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.054850" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1061" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.053836" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1062" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.052984" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1027" name="GameSessionFlowTests" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.051036" total="8" passed="0" failed="8" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1030" name="FinalStepDamageWinsTimeoutAndDeathDelayCannotBePaused" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.FinalStepDamageWinsTimeoutAndDeathDelayCannotBePaused" methodname="FinalStepDamageWinsTimeoutAndDeathDelayCannotBePaused" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="1537901207" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.014796" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[Fixture requires enough real active falling food.]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.ResolveFoodMisses (System.Int32 count) [0x0003e] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:208
+at CPS.KitchenCatch.Tests.GameSessionFlowTests.FinalStepDamageWinsTimeoutAndDeathDelayCannotBePaused () [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:115
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1032" name="FocusReturnRequiresExplicitResume" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.FocusReturnRequiresExplicitResume" methodname="FocusReturnRequiresExplicitResume" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="532073174" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.009024" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.FocusReturnRequiresExplicitResume () [0x00058] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:156
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[SendMessage OnApplicationFocus has no receiver!
+SendMessage OnApplicationFocus has no receiver!
+]]></output>
+              </test-case>
+              <test-case id="1034" name="MissingDependencyRejectsBeginWithSharedNamedValidation" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.MissingDependencyRejectsBeginWithSharedNamedValidation" methodname="MissingDependencyRejectsBeginWithSharedNamedValidation" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="1163492243" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.003694" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.MissingDependencyRejectsBeginWithSharedNamedValidation () [0x00011] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:189
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1031" name="PauseAndResumeCountdownFreezePlayerObjectsTimeAndStatistics" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.PauseAndResumeCountdownFreezePlayerObjectsTimeAndStatistics" methodname="PauseAndResumeCountdownFreezePlayerObjectsTimeAndStatistics" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="102287169" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.000933" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.PauseAndResumeCountdownFreezePlayerObjectsTimeAndStatistics () [0x00037] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:132
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1028" name="ReadyResetsCenterAndOnlyStartsAfterThreeSeconds" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.ReadyResetsCenterAndOnlyStartsAfterThreeSeconds" methodname="ReadyResetsCenterAndOnlyStartsAfterThreeSeconds" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="1968551901" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.001644" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.ReadyResetsCenterAndOnlyStartsAfterThreeSeconds () [0x00024] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:65
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1035" name="RoundSnapshotsAuthoredDifficultyInsteadOfFollowingMutableAsset" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.RoundSnapshotsAuthoredDifficultyInsteadOfFollowingMutableAsset" methodname="RoundSnapshotsAuthoredDifficultyInsteadOfFollowingMutableAsset" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="41108076" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.004265" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.RoundSnapshotsAuthoredDifficultyInsteadOfFollowingMutableAsset () [0x0004c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:200
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1033" name="TenRestartsClearObjectsAndKeepOneSelectionAndPublicationPerRound" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.TenRestartsClearObjectsAndKeepOneSelectionAndPublicationPerRound" methodname="TenRestartsClearObjectsAndKeepOneSelectionAndPublicationPerRound" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="332066741" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.001016" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[Fixture requires enough real active falling food.]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.ResolveFoodMisses (System.Int32 count) [0x0003e] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:208
+at CPS.KitchenCatch.Tests.GameSessionFlowTests.TenRestartsClearObjectsAndKeepOneSelectionAndPublicationPerRound () [0x00068] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:168
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1029" name="TimeoutCapsInputAndPublishesIndependentFrozenResultsOnce" fullname="CPS.KitchenCatch.Tests.GameSessionFlowTests.TimeoutCapsInputAndPublishesIndependentFrozenResultsOnce" methodname="TimeoutCapsInputAndPublishesIndependentFrozenResultsOnce" classname="CPS.KitchenCatch.Tests.GameSessionFlowTests" runstate="Runnable" seed="1160274703" result="Failed" start-time="2026-10-08 17:40:29Z" end-time="2026-10-08 17:40:29Z" duration="0.001583" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: Triumph
+  But was:  Ready
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSessionFlowTests.TimeoutCapsInputAndPublishesIndependentFrozenResultsOnce () [0x000c4] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSessionFlowTests.cs:87
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

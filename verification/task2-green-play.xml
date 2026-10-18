@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="14" result="Passed" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.2275016">
+  <test-suite type="TestSuite" id="1026" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.227502" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1019" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.218634" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2356" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1020" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.217633" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1021" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.217142" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1022" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.216658" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="KeyboardPlayerTests" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.215628" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1017" name="CatchZoneTracksPositionWithoutFacingOrScaleChanges" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.CatchZoneTracksPositionWithoutFacingOrScaleChanges" methodname="CatchZoneTracksPositionWithoutFacingOrScaleChanges" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1709054556" result="Passed" start-time="2026-10-08 13:16:00Z" end-time="2026-10-08 13:16:01Z" duration="0.114073" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" methodname="FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1674660609" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.023995" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="InvalidHandAndInvalidDurationDoNotMovePlayer" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.InvalidHandAndInvalidDurationDoNotMovePlayer" methodname="InvalidHandAndInvalidDurationDoNotMovePlayer" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="596249429" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.004398" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1006" name="KeyboardStatesMoveLeftRightBothOrNeither" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.022890" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1002" name="KeyboardStatesMoveLeftRightBothOrNeither(True,False,-1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(True,False,-1)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="784818444" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.006556" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1003" name="KeyboardStatesMoveLeftRightBothOrNeither(False,True,1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(False,True,1)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="23504698" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.004023" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1004" name="KeyboardStatesMoveLeftRightBothOrNeither(True,True,0)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(True,True,0)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1123427074" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003803" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1005" name="KeyboardStatesMoveLeftRightBothOrNeither(False,False,0)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(False,False,0)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="986622276" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003776" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1010" name="MissingKeyboardReturnsInvalidEmptyInput" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MissingKeyboardReturnsInvalidEmptyInput" methodname="MissingKeyboardReturnsInvalidEmptyInput" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="998345674" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.006053" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="MovementClampsVisibleWidthAndResetPreservesOtherAxes" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementClampsVisibleWidthAndResetPreservesOtherAxes" methodname="MovementClampsVisibleWidthAndResetPreservesOtherAxes" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1539043590" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.004472" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1015" name="MovementDistanceIsIndependentOfStepRate" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.012406" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1012" name="MovementDistanceIsIndependentOfStepRate(30)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(30)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1000423741" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003509" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1013" name="MovementDistanceIsIndependentOfStepRate(60)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(60)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1385367247" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003693" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1014" name="MovementDistanceIsIndependentOfStepRate(120)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(120)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1147070003" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003978" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1009" name="ReleasingOneAliasKeepsOtherAliasPressed" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.009196" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1007" name="ReleasingOneAliasKeepsOtherAliasPressed(A,LeftArrow,-1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed(A,LeftArrow,-1)" methodname="ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="771115319" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.004374" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1008" name="ReleasingOneAliasKeepsOtherAliasPressed(D,RightArrow,1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed(D,RightArrow,1)" methodname="ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="439152782" result="Passed" start-time="2026-10-08 13:16:01Z" end-time="2026-10-08 13:16:01Z" duration="0.003579" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="14" result="Failed(Child)" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.5531738">
+  <test-suite type="TestSuite" id="1026" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.553174" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1019" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.544686" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24940" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1020" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.543210" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1021" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.542445" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1022" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.541772" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="KeyboardPlayerTests" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.540518" total="14" passed="0" failed="14" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1017" name="CatchZoneTracksPositionWithoutFacingOrScaleChanges" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.CatchZoneTracksPositionWithoutFacingOrScaleChanges" methodname="CatchZoneTracksPositionWithoutFacingOrScaleChanges" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1584756918" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.095707" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.CatchZoneTracksPositionWithoutFacingOrScaleChanges () [0x00024] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:123 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1011" name="FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" methodname="FocusLossReturnsInvalidInputAndDoesNotAccumulateTime" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="182997856" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.026042" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.FocusLossReturnsInvalidInputAndDoesNotAccumulateTime () [0x0001f] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:83 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1018" name="InvalidHandAndInvalidDurationDoNotMovePlayer" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.InvalidHandAndInvalidDurationDoNotMovePlayer" methodname="InvalidHandAndInvalidDurationDoNotMovePlayer" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1584710415" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.003615" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.InvalidHandAndInvalidDurationDoNotMovePlayer () [0x00017] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:137 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1006" name="KeyboardStatesMoveLeftRightBothOrNeither" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.016546" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1002" name="KeyboardStatesMoveLeftRightBothOrNeither(True,False,-1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(True,False,-1)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="996542019" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.004060" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither (System.Boolean left, System.Boolean right, System.Int32 direction) [0x00008] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:39 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1003" name="KeyboardStatesMoveLeftRightBothOrNeither(False,True,1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(False,True,1)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="714094522" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.002680" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither (System.Boolean left, System.Boolean right, System.Int32 direction) [0x00008] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:39 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1004" name="KeyboardStatesMoveLeftRightBothOrNeither(True,True,0)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(True,True,0)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="114953278" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.002376" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither (System.Boolean left, System.Boolean right, System.Int32 direction) [0x00008] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:39 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1005" name="KeyboardStatesMoveLeftRightBothOrNeither(False,False,0)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither(False,False,0)" methodname="KeyboardStatesMoveLeftRightBothOrNeither" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1699278796" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.002664" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.KeyboardStatesMoveLeftRightBothOrNeither (System.Boolean left, System.Boolean right, System.Int32 direction) [0x00008] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:39 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1010" name="MissingKeyboardReturnsInvalidEmptyInput" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MissingKeyboardReturnsInvalidEmptyInput" methodname="MissingKeyboardReturnsInvalidEmptyInput" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="636538913" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.004353" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.MissingKeyboardReturnsInvalidEmptyInput () [0x0000b] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:72 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1016" name="MovementClampsVisibleWidthAndResetPreservesOtherAxes" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementClampsVisibleWidthAndResetPreservesOtherAxes" methodname="MovementClampsVisibleWidthAndResetPreservesOtherAxes" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="708352903" result="Failed" label="Error" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:49Z" duration="0.003278" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementClampsVisibleWidthAndResetPreservesOtherAxes () [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:109 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1015" name="MovementDistanceIsIndependentOfStepRate" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-08 13:13:49Z" end-time="2026-10-08 13:13:50Z" duration="0.363481" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1012" name="MovementDistanceIsIndependentOfStepRate(30)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(30)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="529024546" result="Failed" label="Error" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.004329" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate (System.Int32 steps) [0x0000c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:100 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1013" name="MovementDistanceIsIndependentOfStepRate(60)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(60)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="2063847562" result="Failed" label="Error" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.004160" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate (System.Int32 steps) [0x0000c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:100 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1014" name="MovementDistanceIsIndependentOfStepRate(120)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate(120)" methodname="MovementDistanceIsIndependentOfStepRate" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1364176592" result="Failed" label="Error" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.003585" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.MovementDistanceIsIndependentOfStepRate (System.Int32 steps) [0x0000c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:100 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1009" name="ReleasingOneAliasKeepsOtherAliasPressed" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.009887" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1007" name="ReleasingOneAliasKeepsOtherAliasPressed(A,LeftArrow,-1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed(A,LeftArrow,-1)" methodname="ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="1827728217" result="Failed" label="Error" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.004698" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed (UnityEngine.InputSystem.Key letter, UnityEngine.InputSystem.Key arrow, System.Int32 direction) [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:60 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1008" name="ReleasingOneAliasKeepsOtherAliasPressed(D,RightArrow,1)" fullname="CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed(D,RightArrow,1)" methodname="ReleasingOneAliasKeepsOtherAliasPressed" classname="CPS.KitchenCatch.Tests.KeyboardPlayerTests" runstate="Runnable" seed="222816380" result="Failed" label="Error" start-time="2026-10-08 13:13:50Z" end-time="2026-10-08 13:13:50Z" duration="0.003714" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.KeyboardPlayerTests.ReleasingOneAliasKeepsOtherAliasPressed (UnityEngine.InputSystem.Key letter, UnityEngine.InputSystem.Key arrow, System.Int32 direction) [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\KeyboardPlayerTests.cs:60 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.7103951">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.710395" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1150" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.702139" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22920" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1151" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.700935" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1152" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.700103" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1153" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.699122" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="BuildValidationTests" fullname="CPS.KitchenCatch.Tests.BuildValidationTests" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.696135" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1010" name="BrowserHarnessIsExcludedFromReleasePlayers" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessIsExcludedFromReleasePlayers" methodname="BrowserHarnessIsExcludedFromReleasePlayers" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="933651674" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:01Z" duration="0.010854" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" methodname="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="720229603" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:01Z" duration="0.003122" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DisabledRequiredSceneBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DisabledRequiredSceneBlocksValidation" methodname="DisabledRequiredSceneBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1912437172" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:01Z" duration="0.005322" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" methodname="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1846994110" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:01Z" duration="0.596157" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="MismatchedControllerAndSpawnerPlayerBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MismatchedControllerAndSpawnerPlayerBlocksValidation" methodname="MismatchedControllerAndSpawnerPlayerBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="821529763" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:01Z" duration="0.015029" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="MissingDifficultyReferenceBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingDifficultyReferenceBlocksValidation" methodname="MissingDifficultyReferenceBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="193566733" result="Passed" start-time="2026-10-17 19:25:01Z" end-time="2026-10-17 19:25:02Z" duration="0.003121" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="MissingFoodDefinitionBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingFoodDefinitionBlocksValidation" methodname="MissingFoodDefinitionBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1839850283" result="Passed" start-time="2026-10-17 19:25:02Z" end-time="2026-10-17 19:25:02Z" duration="0.001122" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ProductionBuildInputsValidate" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ProductionBuildInputsValidate" methodname="ProductionBuildInputsValidate" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="29945179" result="Passed" start-time="2026-10-17 19:25:02Z" end-time="2026-10-17 19:25:02Z" duration="0.045891" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="ReleaseBuildRejectsDevelopmentOptions" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ReleaseBuildRejectsDevelopmentOptions" methodname="ReleaseBuildRejectsDevelopmentOptions" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1071722599" result="Passed" start-time="2026-10-17 19:25:02Z" end-time="2026-10-17 19:25:02Z" duration="0.000408" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.3201655">
+  <test-suite type="TestSuite" id="1094" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.320166" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1087" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.313177" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="15452" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1088" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.311883" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1089" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.310337" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1090" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.309351" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1027" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.307139" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1029" name="FreshSessionSelectsSolePersistedProfileWhenProductionMenuLoads" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.FreshSessionSelectsSolePersistedProfileWhenProductionMenuLoads" methodname="FreshSessionSelectsSolePersistedProfileWhenProductionMenuLoads" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="2062637838" result="Failed" start-time="2026-10-18 09:31:49Z" end-time="2026-10-18 09:31:52Z" duration="3.293812" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  The displayed saved profile must become the session selection when the menu mounts.
+  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneFlowTests+<FreshSessionSelectsSolePersistedProfileWhenProductionMenuLoads>d__4.MoveNext () [0x0021d] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSceneFlowTests.cs:109
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

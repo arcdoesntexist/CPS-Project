@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.0446581">
+  <test-suite type="TestSuite" id="1042" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.044658" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1035" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.036664" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="5968" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1036" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.035481" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1037" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.034733" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1038" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="27" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.033984" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1007" name="FallingObjectTests" fullname="CPS.KitchenCatch.Tests.FallingObjectTests" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.032227" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1015" name="ValidationNamesMissingReferencesAndInvalidCatchGeometryWithoutStartingPool" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.ValidationNamesMissingReferencesAndInvalidCatchGeometryWithoutStartingPool" methodname="ValidationNamesMissingReferencesAndInvalidCatchGeometryWithoutStartingPool" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="253121620" result="Failed" start-time="2026-10-08 14:02:19Z" end-time="2026-10-08 14:02:19Z" duration="0.017391" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.ValidationNamesMissingReferencesAndInvalidCatchGeometryWithoutStartingPool () [0x00058] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:115
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

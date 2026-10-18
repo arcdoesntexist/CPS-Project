@@ -1,0 +1,38 @@
+<style>
+  .storyboard { border: 1px solid rgba(255,255,255,.14); border-radius: 18px; overflow: hidden; background: rgba(255,255,255,.035); }
+  .storyboard img { width: 100%; display: block; background: #f7f0e5; }
+  .story-copy { padding: 20px; }
+  .timing-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 10px; margin-top: 18px; }
+  .beat { padding: 14px; border-radius: 12px; background: rgba(255,138,50,.09); border: 1px solid rgba(255,138,50,.18); }
+  .beat strong { display: block; color: #ffad68; margin-bottom: 6px; }
+  .beat span { font-size: 13px; opacity: .78; line-height: 1.45; }
+  .specs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .spec { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,.07); font-size: 12px; }
+  .decision { margin-top: 22px; padding: 16px 18px; border-left: 3px solid #ff8a32; background: rgba(255,138,50,.08); }
+  @media (max-width: 850px) { .timing-grid { grid-template-columns: 1fr; } }
+</style>
+
+<h2>Death Animation — HP Zero</h2>
+<p class="subtitle">มุกตายแบบ cartoony ที่อ่านง่ายในเกม 60 FPS แต่แสดง key poses แบบ stepped animation</p>
+
+<div class="storyboard">
+  <img src="/files/death-storyboard-v1.png" alt="Five-step IoTE mascot defeat animation storyboard">
+  <div class="story-copy">
+    <div class="timing-grid">
+      <div class="beat"><strong>1 · 0.00–0.12s</strong><span>Hit-stop สั้น ๆ พร้อม red flash และหยุดรับ input</span></div>
+      <div class="beat"><strong>2 · 0.12–0.40s</strong><span>เสียสมดุล ล้มแบบ squash-and-stretch</span></div>
+      <div class="beat"><strong>3 · 0.40–0.72s</strong><span>นอนตา X สีแดงค้างให้ผู้เล่นอ่านสถานะทัน</span></div>
+      <div class="beat"><strong>4 · 0.52–0.95s</strong><span>อาหาร 4 ชิ้นกระเด็นเป็น arc และตกลงพื้น</span></div>
+      <div class="beat"><strong>5 · 0.72–1.40s</strong><span>ร่างและหมวกแตกเป็นก้อนพิกเซลแล้วจางหาย</span></div>
+    </div>
+    <div class="specs">
+      <span class="spec">Game loop: 60 FPS</span>
+      <span class="spec">Character poses: 10–12 FPS stepped</span>
+      <span class="spec">Food pieces: 4 pooled objects</span>
+      <span class="spec">Original voxel-pixel dissolve</span>
+      <span class="spec">Result screen at 1.40s</span>
+    </div>
+  </div>
+</div>
+
+<div class="decision"><strong>คำถาม:</strong> หลังสลายครบ 1.40 วินาที ให้ตัดเข้าสู่ Result Screen ทันทีตาม timing นี้เลยไหม?</div>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="37" result="Failed(Child)" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.1120426">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.112043" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1102" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.099652" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39016" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1103" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.097175" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1104" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.094598" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1105" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.092346" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1058" name="ProfileStoreTests" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="37" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.089013" total="37" passed="31" failed="6" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1070" name="DuplicateNamesHaveDistinctPersistentGuidIds" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.DuplicateNamesHaveDistinctPersistentGuidIds" methodname="DuplicateNamesHaveDistinctPersistentGuidIds" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="730389367" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.030196" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1096" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.005981" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1094" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried(True)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried(True)" methodname="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1257269462" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.002152" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1095" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried(False)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried(False)" methodname="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="463698703" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000327" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1068" name="InvalidNamesDoNotCreateProfiles" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.006571" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1064" name="InvalidNamesDoNotCreateProfiles(null)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(null)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="936803821" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.003553" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1065" name="InvalidNamesDoNotCreateProfiles(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot;&quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2125656627" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000465" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1066" name="InvalidNamesDoNotCreateProfiles(&quot; \t\n &quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot; \t\n &quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1354913976" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000240" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1067" name="InvalidNamesDoNotCreateProfiles(&quot;abcdefghijklmnopqrstuvwxy&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot;abcdefghijklmnopqrstuvwxy&quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="864601032" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000122" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1093" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.011400" total="16" passed="10" failed="6" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1077" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;not json&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;not json&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="556488480" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000865" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1078" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1123787411" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000406" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1079" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;null&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;null&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1356401340" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000267" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1080" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="607366155" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000222" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1081" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:null}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:null}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="816652624" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.002737" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: not <empty>
+  But was:  <string.Empty>
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:126
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1082" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2069591721" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000377" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: not <empty>
+  But was:  <string.Empty>
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:126
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1083" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:\&quot;1\&quot;,\&quot;profiles\&quot;:[]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:\&quot;1\&quot;,\&quot;profiles\&quot;:[]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="389853808" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000421" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: not <empty>
+  But was:  <string.Empty>
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x0002c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:126
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1084" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:1.5}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:1.5}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1177179117" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000914" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <empty>
+  But was:  < <CPS.KitchenCatch.PlayerProfile> >
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x00017] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:125
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1085" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:42,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:42,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1552238005" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000342" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <empty>
+  But was:  < <CPS.KitchenCatch.PlayerProfile> >
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x00017] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:125
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1086" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="568065967" result="Failed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000290" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <empty>
+  But was:  < <CPS.KitchenCatch.PlayerProfile> >
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced (System.String raw) [0x00017] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\ProfileStoreTests.cs:125
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1087" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:2,\&quot;profiles\&quot;:[]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:2,\&quot;profiles\&quot;:[]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1941296503" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000224" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1088" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[null]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[null]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="3171358" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000233" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1089" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="799135963" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000224" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1090" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot; \&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot; \&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="477861204" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000199" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1091" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:-1}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:-1}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1286514869" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000230" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1092" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0},{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;B\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0},{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;B\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="768979309" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000220" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1075" name="InvalidSessionDoesNotConsumeCount" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.003151" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1072" name="InvalidSessionDoesNotConsumeCount(null)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(null)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1583631778" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.001190" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1073" name="InvalidSessionDoesNotConsumeCount(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(&quot;&quot;)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1109995301" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000315" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1074" name="InvalidSessionDoesNotConsumeCount(&quot; &quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(&quot; &quot;)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2012078362" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000180" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1059" name="MissingStorageStartsEmptyWithoutWarning" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.MissingStorageStartsEmptyWithoutWarning" methodname="MissingStorageStartsEmptyWithoutWarning" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1563782418" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1063" name="NamesAreTrimmedAndLiteral" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.001702" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1060" name="NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="34474505" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000552" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1061" name="NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="942998727" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000186" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1062" name="NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1010900109" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000127" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1097" name="ReadFailureBlocksWritesUntilStorageCanBeRead" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ReadFailureBlocksWritesUntilStorageCanBeRead" methodname="ReadFailureBlocksWritesUntilStorageCanBeRead" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1067469242" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.001584" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1071" name="ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" methodname="ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="389789874" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000755" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1100" name="SaveFailureKeepsProfilesAndSessionCountInMemory" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.001479" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1098" name="SaveFailureKeepsProfilesAndSessionCountInMemory(True)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory(True)" methodname="SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="680214842" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000521" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1099" name="SaveFailureKeepsProfilesAndSessionCountInMemory(False)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory(False)" methodname="SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1120780753" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000313" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1069" name="TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" methodname="TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1295534077" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.001494" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1076" name="UnknownPlayerDoesNotConsumeSession" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.UnknownPlayerDoesNotConsumeSession" methodname="UnknownPlayerDoesNotConsumeSession" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1687620333" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000385" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1101" name="ValidEmptyListLoadsWithoutWarning" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ValidEmptyListLoadsWithoutWarning" methodname="ValidEmptyListLoadsWithoutWarning" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1392598972" result="Passed" start-time="2026-10-08 13:32:01Z" end-time="2026-10-08 13:32:01Z" duration="0.000296" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

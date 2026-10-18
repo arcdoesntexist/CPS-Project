@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.2124715">
+  <test-suite type="TestSuite" id="1090" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="68" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.212472" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1083" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="68" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.199403" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31292" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1084" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="68" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.196981" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1085" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="68" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.194531" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1086" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="68" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.192356" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1027" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.188239" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1035" name="ProductionMascotClipsAndTerminalPhasesRenderInBothFacings" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ProductionMascotClipsAndTerminalPhasesRenderInBothFacings" methodname="ProductionMascotClipsAndTerminalPhasesRenderInBothFacings" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="719032380" result="Failed" start-time="2026-10-11 06:05:28Z" end-time="2026-10-11 06:05:30Z" duration="2.167105" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Fallen hat must leave both X eyes clear.
+  Expected: less than -0.349999994f
+  But was:  0.274499983f
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneFlowTests+<ProductionMascotClipsAndTerminalPhasesRenderInBothFacings>d__10.MoveNext () [0x003b9] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSceneFlowTests.cs:381
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

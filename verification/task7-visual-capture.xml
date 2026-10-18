@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.8263047">
+  <test-suite type="TestSuite" id="1093" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.826305" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1086" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.814562" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29492" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1087" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.812940" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1088" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.811799" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1089" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.810854" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1027" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.808707" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1038" name="ProductionVisualFixCaptureAtRequiredSizes" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ProductionVisualFixCaptureAtRequiredSizes" methodname="ProductionVisualFixCaptureAtRequiredSizes" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="528150596" result="Passed" start-time="2026-10-17 08:21:04Z" end-time="2026-10-17 08:21:05Z" duration="1.793734" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[menu 1920x1080 scale=0.9999999
+menu 1280x720 scale=0.6666667
+gameplay 1920x1080 scale=0.9999999
+gameplay 1280x720 scale=0.6666667
+Diagnostic item Apple at (-5.30, 2.30)
+Diagnostic item Bread at (-2.50, 0.80)
+Diagnostic item Cake at (0.70, 1.70)
+Diagnostic item Can at (3.10, -1.20)
+Diagnostic item BananaPeel at (5.10, 0.30)
+Deterministic diagnostic composition: five production FallingObjects and 12 resolved food catches for SSS; not an organic play sequence.
+diagnostic-active-sss-five-items 1920x1080 scale=0.9999999
+Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Failed(Child)" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.0964648">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.096465" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1150" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.087758" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="30368" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1151" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.086619" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1152" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.085821" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1153" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="124" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.084638" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="BuildValidationTests" fullname="CPS.KitchenCatch.Tests.BuildValidationTests" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.080366" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1010" name="BrowserHarnessIsExcludedFromReleasePlayers" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessIsExcludedFromReleasePlayers" methodname="BrowserHarnessIsExcludedFromReleasePlayers" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1363740136" result="Passed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.013635" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" methodname="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="462524369" result="Passed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.004891" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DisabledRequiredSceneBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DisabledRequiredSceneBlocksValidation" methodname="DisabledRequiredSceneBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="592919633" result="Failed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.005986" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: <System.InvalidOperationException>
+  But was:  <System.NotImplementedException: The method or operation is not implemented.
+  at CPS.KitchenCatch.Editor.WebGLBuild.Validate (UnityEditor.EditorBuildSettingsScene[] scenes) [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Editor\WebGLBuild.cs:24 
+  at CPS.KitchenCatch.Tests.BuildValidationTests+<>c__DisplayClass2_0.<DisabledRequiredSceneBlocksValidation>b__1 () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:31 
+  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[] args) [0x0002f] in <f577cd9686154d6ab10efd7e65e64366>:0 >
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.BuildValidationTests.DisabledRequiredSceneBlocksValidation () [0x00072] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:31
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1005" name="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" methodname="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="23572572" result="Failed" label="Error" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.002031" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <04e249a5238343c6a036befedb61c13f>:0 
+  at CPS.KitchenCatch.Tests.BuildValidationTests.GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:67 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1006" name="MismatchedControllerAndSpawnerPlayerBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MismatchedControllerAndSpawnerPlayerBlocksValidation" methodname="MismatchedControllerAndSpawnerPlayerBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="258220769" result="Failed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.032883" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: <System.InvalidOperationException>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.BuildValidationTests.MismatchedControllerAndSpawnerPlayerBlocksValidation () [0x00052] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:100
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1004" name="MissingDifficultyReferenceBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingDifficultyReferenceBlocksValidation" methodname="MissingDifficultyReferenceBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1963708202" result="Passed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.001423" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="MissingFoodDefinitionBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingFoodDefinitionBlocksValidation" methodname="MissingFoodDefinitionBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="264217567" result="Passed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.001279" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ProductionBuildInputsValidate" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ProductionBuildInputsValidate" methodname="ProductionBuildInputsValidate" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="22480897" result="Failed" label="Error" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.000403" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.BuildValidationTests.ProductionBuildInputsValidate () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:20 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1008" name="ReleaseBuildRejectsDevelopmentOptions" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ReleaseBuildRejectsDevelopmentOptions" methodname="ReleaseBuildRejectsDevelopmentOptions" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1650407273" result="Passed" start-time="2026-10-17 19:22:56Z" end-time="2026-10-17 19:22:56Z" duration="0.000329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

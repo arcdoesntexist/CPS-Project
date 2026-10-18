@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="28" result="Failed(Child)" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.0962558">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.096256" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1034" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.082598" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31080" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1035" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.081236" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1036" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.080419" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1037" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.079670" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="GameRulesTests" fullname="CPS.KitchenCatch.Tests.GameRulesTests" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.077899" total="28" passed="0" failed="28" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1006" name="ComboThresholdsAndReset" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ComboThresholdsAndReset" methodname="ComboThresholdsAndReset" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1735833629" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.016710" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.ComboThresholdsAndReset () [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:65 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1004" name="DamageClampsAtZero" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DamageClampsAtZero" methodname="DamageClampsAtZero" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2081066499" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000638" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.DamageClampsAtZero () [0x00005] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:38 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1022" name="DeathWinsAtDeadline" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DeathWinsAtDeadline" methodname="DeathWinsAtDeadline" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1615254347" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.001024" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.DeathWinsAtDeadline () [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:134 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1005" name="DuplicateObjectIdIsIgnored" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DuplicateObjectIdIsIgnored" methodname="DuplicateObjectIdIsIgnored" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1729950229" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.001075" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.DuplicateObjectIdIsIgnored () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1002" name="FoodPointsAre10_15_20" fullname="CPS.KitchenCatch.Tests.GameRulesTests.FoodPointsAre10_15_20" methodname="FoodPointsAre10_15_20" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="266778545" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000577" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.FoodPointsAre10_15_20 () [0x00005] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:12 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1021" name="HarmfulOutcomeDamagesOnceAndResetsCombo" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.004868" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1019" name="HarmfulOutcomeDamagesOnceAndResetsCombo(Food,Missed)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo(Food,Missed)" methodname="HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1506503249" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.001075" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo (CPS.KitchenCatch.ObjectKind kind, CPS.KitchenCatch.ObjectOutcome outcome) [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:117 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1020" name="HarmfulOutcomeDamagesOnceAndResetsCombo(Trash,Caught)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo(Trash,Caught)" methodname="HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1128473502" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000352" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo (CPS.KitchenCatch.ObjectKind kind, CPS.KitchenCatch.ObjectOutcome outcome) [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:117 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1023" name="LargeDtStopsAt60" fullname="CPS.KitchenCatch.Tests.GameRulesTests.LargeDtStopsAt60" methodname="LargeDtStopsAt60" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="660602331" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000656" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.LargeDtStopsAt60 () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:151 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1018" name="RankBoundary" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.006029" total="11" passed="0" failed="11" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1007" name="RankBoundary(0,D)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(0,D)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="166838414" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000746" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1008" name="RankBoundary(1,D)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(1,D)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="449431913" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000358" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1009" name="RankBoundary(2,C)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(2,C)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="973955311" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000285" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1010" name="RankBoundary(3,B)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(3,B)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1170073764" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000268" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1011" name="RankBoundary(4,A)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(4,A)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1936880579" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000294" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1012" name="RankBoundary(5,S)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(5,S)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="377484980" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000270" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1013" name="RankBoundary(7,S)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(7,S)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2089730595" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000236" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1014" name="RankBoundary(8,SS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(8,SS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1295098228" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000227" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1015" name="RankBoundary(11,SS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(11,SS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2038779917" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000225" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1016" name="RankBoundary(12,SSS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(12,SSS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1698080" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000275" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1017" name="RankBoundary(13,SSS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(13,SSS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1449441898" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000316" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary (System.Int32 streak, CPS.KitchenCatch.ComboRank expected) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:106 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1030" name="ReadyAndRepeatedStartAreGuarded" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ReadyAndRepeatedStartAreGuarded" methodname="ReadyAndRepeatedStartAreGuarded" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="313901747" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000725" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.ReadyAndRepeatedStartAreGuarded () [0x00005] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:202 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1031" name="ResultCopyDoesNotShareStatistics" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyDoesNotShareStatistics" methodname="ResultCopyDoesNotShareStatistics" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="503079463" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.001243" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyDoesNotShareStatistics () [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:220 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1032" name="ResultCopyPreservesUnavailableStatistics" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyPreservesUnavailableStatistics" methodname="ResultCopyPreservesUnavailableStatistics" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="22795514" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000900" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyPreservesUnavailableStatistics () [0x00005] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:237 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1033" name="ResultJsonRoundTripsAllFields" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultJsonRoundTripsAllFields" methodname="ResultJsonRoundTripsAllFields" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="41132507" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000824" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.ResultJsonRoundTripsAllFields () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:251 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1026" name="TerminalEventOnce" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.002261" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1024" name="TerminalEventOnce(False)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce(False)" methodname="TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="55714433" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000926" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce (System.Boolean depleteHp) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:164 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1025" name="TerminalEventOnce(True)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce(True)" methodname="TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1261781130" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000233" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce (System.Boolean depleteHp) [0x00006] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:164 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1029" name="TerminalRejectsFurtherOutcomes" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.002377" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1027" name="TerminalRejectsFurtherOutcomes(False)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes(False)" methodname="TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2112956494" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000968" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes (System.Boolean depleteHp) [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:183 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1028" name="TerminalRejectsFurtherOutcomes(True)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes(True)" methodname="TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="35911252" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000385" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                    <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes (System.Boolean depleteHp) [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:183 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1003" name="TrashMissIsHarmless" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TrashMissIsHarmless" methodname="TrashMissIsHarmless" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="474493483" result="Failed" label="Error" start-time="2026-10-08 12:55:53Z" end-time="2026-10-08 12:55:53Z" duration="0.000682" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.GameRulesTests.TrashMissIsHarmless () [0x00000] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameRulesTests.cs:24 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.0657422">
+  <test-suite type="TestSuite" id="1039" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.065742" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1032" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.055987" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3796" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1033" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.054695" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1034" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.053890" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1035" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.053198" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1007" name="FallingObjectTests" fullname="CPS.KitchenCatch.Tests.FallingObjectTests" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.051729" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1011" name="CrossingOutsideCatchWidthReportsOneMiss" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.CrossingOutsideCatchWidthReportsOneMiss" methodname="CrossingOutsideCatchWidthReportsOneMiss" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="206767198" result="Failed" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.025957" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <CPS.KitchenCatch.ObjectOutcome[1]>, actual is <System.Collections.Generic.List`1[CPS.KitchenCatch.ObjectOutcome]> with 0 elements
+  Values differ at index [0]
+  Missing:  < Missed >]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.CrossingOutsideCatchWidthReportsOneMiss () [0x000ab] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:44
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1012" name="ReuseRejectsStaleIdAndClearsOldCallback" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.ReuseRejectsStaleIdAndClearsOldCallback" methodname="ReuseRejectsStaleIdAndClearsOldCallback" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="2009270572" result="Failed" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.001075" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.ReuseRejectsStaleIdAndClearsOldCallback () [0x000b6] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:57
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1013" name="SpawnerClearReuseKeepsIdsFreshAndOldReportSilent" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.SpawnerClearReuseKeepsIdsFreshAndOldReportSilent" methodname="SpawnerClearReuseKeepsIdsFreshAndOldReportSilent" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="1420021078" result="Failed" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.003595" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.SpawnerClearReuseKeepsIdsFreshAndOldReportSilent () [0x00115] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:78
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1010" name="SweptCrossingCatchesExactlyOnceBeforeMiss" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.SweptCrossingCatchesExactlyOnceBeforeMiss" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.004343" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1008" name="SweptCrossingCatchesExactlyOnceBeforeMiss(0.03333334f)" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.SweptCrossingCatchesExactlyOnceBeforeMiss(0.03333334f)" methodname="SweptCrossingCatchesExactlyOnceBeforeMiss" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="80068342" result="Failed" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.001214" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: Caught
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.SweptCrossingCatchesExactlyOnceBeforeMiss (System.Single dt) [0x000ab] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:32
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1009" name="SweptCrossingCatchesExactlyOnceBeforeMiss(1.0f)" fullname="CPS.KitchenCatch.Tests.FallingObjectTests.SweptCrossingCatchesExactlyOnceBeforeMiss(1.0f)" methodname="SweptCrossingCatchesExactlyOnceBeforeMiss" classname="CPS.KitchenCatch.Tests.FallingObjectTests" runstate="Runnable" seed="2074853492" result="Failed" start-time="2026-10-08 13:52:08Z" end-time="2026-10-08 13:52:08Z" duration="0.000347" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: Caught
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.FallingObjectTests.SweptCrossingCatchesExactlyOnceBeforeMiss (System.Single dt) [0x000ab] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\FallingObjectTests.cs:32
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

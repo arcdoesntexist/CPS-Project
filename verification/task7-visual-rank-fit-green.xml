@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.0601154">
+  <test-suite type="TestSuite" id="1093" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.060115" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1086" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.052984" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="19468" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1087" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.051230" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1088" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.050123" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1089" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="71" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.048979" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1050" name="GameUITests" fullname="CPS.KitchenCatch.Tests.GameUITests" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.047049" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1058" name="RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" fullname="CPS.KitchenCatch.Tests.GameUITests.RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" methodname="RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="2107295484" result="Passed" start-time="2026-10-17 08:23:03Z" end-time="2026-10-17 08:23:03Z" duration="0.033723" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

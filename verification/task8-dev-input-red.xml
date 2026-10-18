@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.1868791">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.186879" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1148" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.175217" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="35348" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1149" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.173595" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1150" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.172360" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1151" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.170610" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="BuildValidationTests" fullname="CPS.KitchenCatch.Tests.BuildValidationTests" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.165764" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1008" name="BrowserHarnessIsExcludedFromReleasePlayers" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessIsExcludedFromReleasePlayers" methodname="BrowserHarnessIsExcludedFromReleasePlayers" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1470705501" result="Failed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.025580" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: String containing "Keyboard.current"
+  But was:  "#if DEVELOPMENT_BUILD || UNITY_EDITOR
+using System;
+using System.Reflection;
+using Unity.Profiling;
+using UnityEngine;
+
+namespace CPS.KitchenCatch
+{
+    public sealed class DevelopmentBrowserHarness : MonoBehaviour
+    {
+        private static readonly MethodInfo FinishRound = typeof(GameSessionController).GetMethod("FinishRound", BindingFlags.Instance | BindingFlags.NonPublic);
+        private GameSessionController controller;
+        private SessionState lastState = SessionState.Ready;
+        private ProfilerRecorder gcRecorder;
+        private int frameCount;
+        private float elapsedSeconds;
+        private float maximumFrameMilliseconds;
+        private long totalGcBytes;
+        private long maximumGcBytes;
+
+#if DEVELOPMENT_BUILD
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        private static void Install()
+        {
+            var host = new GameObject("DevelopmentBrowserHarness");
+            DontDestroyOnLoad(host);
+            host.AddComponent<DevelopmentBrowserHarness>();
+        }
+#endif
+
+        private void Awake()
+        {
+            gcRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Memory, "GC Allocated In Frame");
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.F6)) Application.targetFrameRate = 30;
+            if (Input.GetKeyDown(KeyCode.F7)) Application.targetFrameRate = 60;
+
+            if (controller == null) controller = FindFirstObjectByType<GameSessionController>();
+            if (controller == null) return;
+
+            SessionState current = controller.State;
+            if (current == SessionState.Playing && lastState != SessionState.Playing) ResetMetrics();
+            if (current == SessionState.Playing) SampleMetrics();
+
+            if (current == SessionState.Playing && Input.GetKeyDown(KeyCode.F8)) Finish(EndReason.Triumph);
+            if (current == SessionState.Playing && Input.GetKeyDown(KeyCode.F9)) Finish(EndReason.HpDepleted);
+
+            current = controller.State;
+            if (current == SessionState.Results && lastState != SessionState.Results) LogMetrics();
+            lastState = current;
+        }
+
+        private void Finish(EndReason reason)
+        {
+            if (reason == EndReason.Triumph)
+            {
+                controller.Model.CompleteStep(controller.Model.RemainingSeconds);
+            }
+            else
+            {
+                for (long id = -1; id >= -3; id--)
+                    controller.Model.Resolve(id, ObjectKind.Food, ObjectOutcome.Missed, 0);
+                controller.Model.CompleteStep(0);
+            }
+
+            if (controller.Model.State == SessionState.Triumph || controller.Model.State == SessionState.Dying)
+                FinishRound?.Invoke(controller, null);
+        }
+
+        private void ResetMetrics()
+        {
+            frameCount = 0;
+            elapsedSeconds = 0;
+            maximumFrameMilliseconds = 0;
+            totalGcBytes = 0;
+            maximumGcBytes = 0;
+        }
+
+        private void SampleMetrics()
+        {
+            float seconds = Time.unscaledDeltaTime;
+            long gcBytes = gcRecorder.Valid ? gcRecorder.LastValue : -1;
+            frameCount++;
+            elapsedSeconds += seconds;
+            maximumFrameMilliseconds = Math.Max(maximumFrameMilliseconds, seconds * 1000);
+            if (gcBytes >= 0)
+            {
+                totalGcBytes += gcBytes;
+                maximumGcBytes = Math.Max(maximumGcBytes, gcBytes);
+            }
+        }
+
+        private void LogMetrics()
+        {
+            float averageFrameMilliseconds = frameCount > 0 ? elapsedSeconds * 1000 / frameCount : 0;
+            float framesPerSecond = elapsedSeconds > 0 ? frameCount / elapsedSeconds : 0;
+            long averageGcBytes = frameCount > 0 && gcRecorder.Valid ? totalGcBytes / frameCount : -1;
+            long peakGcBytes = gcRecorder.Valid ? maximumGcBytes : -1;
+            Debug.Log($"CPS_DEV_METRICS difficulty={controller.LastResult.Difficulty} end={controller.LastResult.EndReason} target={Application.targetFrameRate} frames={frameCount} elapsed={elapsedSeconds:F3} fps={framesPerSecond:F2} avgFrameMs={averageFrameMilliseconds:F3} maxFrameMs={maximumFrameMilliseconds:F3} avgGcBytes={averageGcBytes} maxGcBytes={peakGcBytes}");
+        }
+
+        private void OnDestroy()
+        {
+            gcRecorder.Dispose();
+        }
+    }
+}
+#endif
+"
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessIsExcludedFromReleasePlayers () [0x0002a] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\BuildValidationTests.cs:99
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1007" name="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" methodname="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="933023824" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.011247" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DisabledRequiredSceneBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DisabledRequiredSceneBlocksValidation" methodname="DisabledRequiredSceneBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="267515374" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.064205" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="MissingDifficultyReferenceBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingDifficultyReferenceBlocksValidation" methodname="MissingDifficultyReferenceBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="939938813" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.033159" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="MissingFoodDefinitionBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingFoodDefinitionBlocksValidation" methodname="MissingFoodDefinitionBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="2146192403" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.002148" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ProductionBuildInputsValidate" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ProductionBuildInputsValidate" methodname="ProductionBuildInputsValidate" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="847837941" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.000550" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="ReleaseBuildRejectsDevelopmentOptions" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ReleaseBuildRejectsDevelopmentOptions" methodname="ReleaseBuildRejectsDevelopmentOptions" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="992137092" result="Passed" start-time="2026-10-17 18:50:27Z" end-time="2026-10-17 18:50:27Z" duration="0.000816" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

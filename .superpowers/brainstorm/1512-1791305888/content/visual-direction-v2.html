@@ -1,0 +1,50 @@
+<style>
+  .hero-note { max-width: 900px; margin-bottom: 24px; }
+  .visual-grid { display: grid; gap: 24px; }
+  .visual-card { border: 1px solid rgba(255,255,255,.14); border-radius: 18px; overflow: hidden; background: rgba(255,255,255,.035); cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+  .visual-card:hover { transform: translateY(-2px); border-color: #ff8a32; }
+  .visual-card.selected { border-color: #ff8a32; box-shadow: 0 0 0 3px rgba(255,138,50,.18); }
+  .visual-card img { width: 100%; display: block; background: #191919; }
+  .visual-copy { padding: 18px 20px 20px; }
+  .visual-copy h3 { margin: 0 0 8px; }
+  .visual-copy p { margin: 0; opacity: .82; line-height: 1.55; }
+  .badge { display: inline-flex; align-items: center; margin: 0 0 14px; padding: 6px 10px; border-radius: 999px; background: #ff8a32; color: #21140c; font-weight: 800; font-size: 12px; letter-spacing: .05em; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag { padding: 5px 9px; border-radius: 999px; background: rgba(255,138,50,.14); color: #ffb06d; font-size: 12px; }
+  .selection-note { margin-top: 24px; padding: 16px 18px; border-left: 3px solid #ff8a32; background: rgba(255,138,50,.08); }
+</style>
+
+<span class="badge">REVISION 02 · IoTE ENGINEER</span>
+<h2>Visual Direction — Tiny Engineer Hardhat</h2>
+<p class="subtitle hero-note">แก้เฉพาะหมวกจาก Chef Hat เป็นหมวกนิรภัยวิศวกรจิ๋วสีส้ม พร้อมป้ายสลัก “IoTE” โดยคงตัวละคร ฉาก HUD และ Combo Rank ที่อนุมัติไว้ทั้งหมด</p>
+
+<div class="visual-grid" data-multiselect>
+  <div class="visual-card card" data-choice="character-v2" onclick="toggleSelect(this)">
+    <img src="/files/character-concept-v2.png" alt="IoTE engineer mascot concept sheet">
+    <div class="visual-copy">
+      <h3>A — Character with IoTE Hardhat</h3>
+      <p>หมวกนิรภัยเพิ่มตัวตนด้านวิศวกรรมและเชื่อมกับสาขา IoTE โดยยังรักษา silhouette ตัวกลม ปากใหญ่ และสีส้มซึ่งเป็นเอกลักษณ์เดิม</p>
+      <div class="tag-row"><span class="tag">IoTE identity</span><span class="tag">Readable silhouette</span><span class="tag">8–12 FPS animation</span></div>
+    </div>
+  </div>
+
+  <div class="visual-card card" data-choice="gameplay-v2" onclick="toggleSelect(this)">
+    <img src="/files/gameplay-mockup-v2.png" alt="Kitchen gameplay with IoTE hardhat mascot">
+    <div class="visual-copy">
+      <h3>B — Gameplay Integration</h3>
+      <p>ใช้ hardhat เดียวกันทั้ง portrait และตัวละครในฉาก ทำให้แบรนด์มาสคอตต่อเนื่อง และคำ IoTE ยังอ่านได้โดยไม่แย่งความสนใจจากอาหาร ขยะ และ HUD</p>
+      <div class="tag-row"><span class="tag">Consistent HUD portrait</span><span class="tag">60 FPS gameplay</span><span class="tag">Original game IP</span></div>
+    </div>
+  </div>
+
+  <div class="visual-card card" data-choice="combo-v2" onclick="toggleSelect(this)">
+    <img src="/files/combo-ranks-v2.png" alt="Kitchen combo rank system with IoTE hardhat mascot">
+    <div class="visual-copy">
+      <h3>C — Combo Rank Integration</h3>
+      <p>hardhat ถูกใช้เป็น visual anchor ทุก Rank ขณะที่พลัง สี และเอฟเฟกต์ยังไต่ระดับจาก Dull Dish ไปถึง Supreme Chef เหมือนเดิม</p>
+      <div class="tag-row"><span class="tag">Original rank system</span><span class="tag">Escalating energy</span><span class="tag">Engineering mascot</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="selection-note"><strong>ตรวจรอบสุดท้าย:</strong> คลิกภาพที่อนุมัติ แล้วตอบในแชตว่า “ล็อก Visual v2” หรือระบุจุดที่ต้องแก้เพิ่มเติม</div>

@@ -1,0 +1,48 @@
+<style>
+  .hero-note { max-width: 860px; margin-bottom: 24px; }
+  .visual-grid { display: grid; gap: 24px; }
+  .visual-card { border: 1px solid rgba(255,255,255,.14); border-radius: 18px; overflow: hidden; background: rgba(255,255,255,.035); cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+  .visual-card:hover { transform: translateY(-2px); border-color: #ff8a32; }
+  .visual-card.selected { border-color: #ff8a32; box-shadow: 0 0 0 3px rgba(255,138,50,.18); }
+  .visual-card img { width: 100%; display: block; background: #191919; }
+  .visual-copy { padding: 18px 20px 20px; }
+  .visual-copy h3 { margin: 0 0 8px; }
+  .visual-copy p { margin: 0; opacity: .82; line-height: 1.55; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag { padding: 5px 9px; border-radius: 999px; background: rgba(255,138,50,.14); color: #ffb06d; font-size: 12px; }
+  .selection-note { margin-top: 24px; padding: 16px 18px; border-left: 3px solid #ff8a32; background: rgba(255,138,50,.08); }
+</style>
+
+<h2>Visual Direction — Kitchen Catch</h2>
+<p class="subtitle hero-note">พัฒนาจากภาพร่างของคุณให้เป็น IP ต้นฉบับ: มาสคอตเชฟตัวกลม, งานภาพกึ่ง pixel–cartoony, เกมลื่น 60 FPS แต่ animation ตัวละครตั้งใจลดเฟรมให้มีจังหวะแบบ hand-crafted</p>
+
+<div class="visual-grid" data-multiselect>
+  <div class="visual-card card" data-choice="character" onclick="toggleSelect(this)">
+    <img src="/files/character-concept.png" alt="Character concept sheet with idle, run, and catch poses">
+    <div class="visual-copy">
+      <h3>A — Character Direction</h3>
+      <p>คง silhouette จากภาพร่าง แต่เพิ่มหมวกเชฟทรงชัด ใบหน้าจำง่าย และ key poses ที่อ่านออกทันที จุดที่ควรเก็บคือปากทรงใหญ่กับแขนเล็กซึ่งทำให้ท่า Eat เด่นมาก</p>
+      <div class="tag-row"><span class="tag">Original mascot</span><span class="tag">8–12 FPS animation</span><span class="tag">Warm palette</span></div>
+    </div>
+  </div>
+
+  <div class="visual-card card" data-choice="gameplay" onclick="toggleSelect(this)">
+    <img src="/files/gameplay-mockup.png" alt="Kitchen gameplay screen with falling food and trash">
+    <div class="visual-copy">
+      <h3>B — Gameplay Screen</h3>
+      <p>HUD วางข้อมูลหลักครบ: Profile, HP, เวลา, Score, Difficulty และแรงบีบซ้าย–ขวา ฉากครัวอบอุ่นช่วยแยกอาหารออกจากขยะได้เร็ว แต่เวอร์ชันจริงควรลดรายละเอียดฉากหลังลงเล็กน้อยเพื่อให้เล่นง่าย</p>
+      <div class="tag-row"><span class="tag">60 FPS gameplay</span><span class="tag">Readable HUD</span><span class="tag">Food vs trash</span></div>
+    </div>
+  </div>
+
+  <div class="visual-card card" data-choice="combo" onclick="toggleSelect(this)">
+    <img src="/files/combo-ranks.png" alt="Original kitchen-themed escalating combo rank system">
+    <div class="visual-copy">
+      <h3>C — Combo Rank System</h3>
+      <p>ยืมเพียงหลักการไต่ความเข้มจากเกม stylish action แล้วแปลงเป็นภาษาครัวต้นฉบับ: Dull Dish → Cookin’ → Bold Bite → Appetizing → Sizzling → Super Savory → Supreme Chef พร้อมสีและเอฟเฟกต์ที่รุนแรงขึ้นตาม Rank</p>
+      <div class="tag-row"><span class="tag">Original naming</span><span class="tag">Escalating energy</span><span class="tag">Kitchen identity</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="selection-note"><strong>วิธีให้ feedback:</strong> คลิกการ์ดที่ต้องการเก็บเป็นทิศทางหลักได้หลายใบ แล้วบอกในแชตว่าต้องการแก้ Character, Gameplay หรือ Combo ส่วนใดก่อน</div>

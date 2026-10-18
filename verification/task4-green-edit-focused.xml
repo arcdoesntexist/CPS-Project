@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="19" result="Failed(Child)" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.6837568">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.683757" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1128" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.675551" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20888" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1129" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.672707" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1130" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.670798" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1131" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="105" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.668338" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1103" name="SpawnPolicyTests" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.664776" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1104" name="EasyWrapDefersWithoutSkippingCyclicLane" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.EasyWrapDefersWithoutSkippingCyclicLane" methodname="EasyWrapDefersWithoutSkippingCyclicLane" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1481619396" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.026149" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1127" name="EmptyLanesAndInvalidCatchGeometryRejectPolicy" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.EmptyLanesAndInvalidCatchGeometryRejectPolicy" methodname="EmptyLanesAndInvalidCatchGeometryRejectPolicy" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1154370763" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.002912" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1113" name="InvalidFallSpeedRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.004179" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1109" name="InvalidFallSpeedRejectsConfig(0)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(0)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1810973927" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000504" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1110" name="InvalidFallSpeedRejectsConfig(-1)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(-1)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1447177565" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000212" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1111" name="InvalidFallSpeedRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(float.NaN)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="958304219" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000237" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1112" name="InvalidFallSpeedRejectsConfig(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(float.PositiveInfinity)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="670185210" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000136" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1118" name="InvalidIntervalRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.001512" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1114" name="InvalidIntervalRejectsConfig(0)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(0)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1791634232" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000375" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1115" name="InvalidIntervalRejectsConfig(-1)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(-1)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="376028226" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000125" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1116" name="InvalidIntervalRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(float.NaN)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="970885345" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000103" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1117" name="InvalidIntervalRejectsConfig(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(float.PositiveInfinity)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="275582968" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000101" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1122" name="InvalidTrashProbabilityRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.001322" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1119" name="InvalidTrashProbabilityRejectsConfig(-0.1f)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(-0.1f)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1719356886" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000358" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1120" name="InvalidTrashProbabilityRejectsConfig(1.1f)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(1.1f)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1427667893" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000205" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1121" name="InvalidTrashProbabilityRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(float.NaN)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1686785833" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000172" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1108" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.599158" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1105" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Easy)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Easy)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1690097805" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.360479" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1106" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Normal)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Normal)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1140315986" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.133588" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1107" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Hard)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Hard)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1703345112" result="Failed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.103999" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Trash at -2/208.858 crosses food path 0->-6
+  Expected: True
+  But was:  False
+]]></message>
+                    <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath (CPS.KitchenCatch.DifficultyId difficulty) [0x0030c] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\SpawnPolicyTests.cs:83
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1126" name="UnreachableLaneRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.011118" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1123" name="UnreachableLaneRejectsConfig(8)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(8)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="355915943" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000757" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1124" name="UnreachableLaneRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(float.NaN)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="88028500" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000235" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1125" name="UnreachableLaneRejectsConfig(float.NegativeInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(float.NegativeInfinity)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="437906128" result="Passed" start-time="2026-10-08 13:55:24Z" end-time="2026-10-08 13:55:24Z" duration="0.000191" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
