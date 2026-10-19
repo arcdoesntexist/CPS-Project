@@ -14,7 +14,7 @@ This container-bound Apps Script receives one completed Unity session per row in
 
 Create a Web app deployment that executes as the spreadsheet owner and allows access to `Anyone`. Record the resulting `/exec` URL here after deployment. The endpoint is intentionally public and unauthenticated for the classroom demo; anyone who knows the URL can submit junk rows.
 
-Deployment URL: not deployed
+Deployment URL: https://script.google.com/macros/s/AKfycbzBmXK-7_5x4EEBYNKbSOan61djhXDhBI_CD7mElk2EdohlfHCJwU34wO4pV1ckKdUXsQ/exec
 
 After changing `Code.gs`, create a new deployment version or edit the existing deployment to use the new version.
 
