@@ -1,6 +1,6 @@
 # Font & Audio Brief — IoTE Kitchen Catch
 
-สถานะ: ยังรอ Font และ Audio ที่มีสิทธิ์ใช้/เผยแพร่สำหรับ production; มี MP3 ที่ผู้ใช้ให้มา 5 ไฟล์สำหรับสาธิตในเครื่องเท่านั้น ไม่ได้ commit เข้า Git และไม่ถือว่าผ่านการตรวจ license
+สถานะ: ใช้ `FFSpokenTrial-Regular.ttf` กับ UI ทั้งหมดและ MP3 ที่ผู้ใช้ให้มา 5 ไฟล์เป็น asset ชั่วคราวสำหรับสาธิตในห้องเรียน ยังไม่มี license ที่ยืนยันสิทธิ์ embed/แจกจ่าย จึงไม่ถือว่าผ่าน production
 
 สำหรับ demo ในห้องเรียน โค้ด Unity จะโหลด Lobby, Gameplay, Running, Triumph และ Death จาก `Assets/CPS/Resources/LocalDemoAudio` ถ้ามีไฟล์ในเครื่อง ดู URL ต้นทางและข้อจำกัดสิทธิ์ใน [README](../README.md) การระบุแหล่งที่มาไม่ใช่ใบอนุญาต โดยเฉพาะ Death ที่สืบย้อนถึง Rockstar Games / *Red Dead Redemption 2* ก่อนสร้าง build เพื่อแจกจ่าย ให้ย้ายหรือลบโฟลเดอร์นี้ออกจาก Unity project แล้ว build ใหม่ เสียง eat, hurt, rank-up, UI confirm, countdown และ go ยังไม่มี
 
@@ -38,7 +38,15 @@
 - ไม่ใช้ไฟล์ที่ rip มาจาก Kirby, DMC5, Minecraft หรือเกมอื่น
 - วางไฟล์ที่เลือกใน `C:\Users\Arc\Downloads\CPS\Unity_Project\incoming\audio` ได้ แล้วบอกผมเมื่อพร้อม ผมจะตรวจและนำเข้า Unity ภายหลัง
 
-## Font ที่รอคุณเลือก
+## Font ชั่วคราว
+
+ไฟล์ `Assets/CPS/Fonts/FFSpokenTrial-Regular.ttf` ถูกนำเข้าจากฟอนต์ที่ติดตั้งในเครื่อง และใช้กับ Main Menu, Gameplay, Pause, Settings และ Results ทั้งหมด รองรับ glyph ภาษาไทยยังไม่ได้รับการยืนยัน ชื่อผู้เล่นภาษาไทยอาจแสดงไม่ครบ ต้องเปลี่ยนเป็นไฟล์ที่มี license และ Thai glyph coverage ก่อนเผยแพร่
+
+## Global audio settings
+
+Main Menu และ Pause ใช้ Settings panel เดียวกัน ค่า Master Volume และ Background Music บันทึกด้วย `PlayerPrefs` แบบ global ไม่ขึ้นกับ Profile ค่า 100 ให้ Master gain สูงสุด `+12 dB`; ปิด Background Music จะหยุดเฉพาะ Lobby/Gameplay music โดย Running, Triumph และ Death ยังเล่น
+
+## Font production ที่ยังต้องเลือก
 
 ต้องการ Font UI ที่อ่านง่ายทั้ง Latin, ตัวเลข และชื่อไทย รวมสระ/วรรณยุกต์ ใช้ไฟล์ TTF/OTF พร้อม license ที่อนุญาต embed/แจกจ่ายในเกม ไม่จำเป็นต้องเป็น pixel font ทุกข้อความ
 

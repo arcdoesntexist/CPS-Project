@@ -17,3 +17,7 @@ Five user-provided MP3s are available only in the local Unity checkout at `Asset
 These URLs record provenance, not a license or permission to redistribute. The Death clip traces to Rockstar Games' *Red Dead Redemption 2*. No production or public distribution rights have been verified for these MP3s. Before making a distributable build, delete or move `Assets/CPS/Resources/LocalDemoAudio` out of the Unity project, then rebuild. This also disables the local demo music and sound without changing code.
 
 Eat, hurt, rank-up, UI confirm, countdown, and go sound effects remain missing. A licensed production font and production audio also remain pending.
+
+The Main Menu and Pause screen now share global audio settings stored outside player profiles. Master Volume reaches `+12 dB` at 100, and Background Music disables only Lobby/Gameplay music while keeping gameplay sound effects enabled.
+
+`FFSpokenTrial-Regular.ttf` is embedded temporarily for the classroom UI. It is a trial font with no redistribution license recorded in this repository, and its Thai glyph coverage has not been verified. Replace it with a licensed font before distributing the game.
