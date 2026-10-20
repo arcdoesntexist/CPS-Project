@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.0657691">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="132" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.065769" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1160" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="132" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.057085" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23548" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1161" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="132" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.054927" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1162" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="132" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.052934" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1163" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="132" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.051113" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1074" name="PresentationAuthoringTests" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.047604" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1078" name="MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" methodname="MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1379238107" result="Failed" start-time="2026-10-20 08:53:51Z" end-time="2026-10-20 08:53:51Z" duration="0.033653" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 1.10899997f +/- 0.0299999993f
+  But was:  0.963333309f
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.PresentationAuthoringTests.MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead () [0x0010b] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\PresentationAuthoringTests.cs:71
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

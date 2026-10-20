@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 18:53:52Z" end-time="2026-10-19 18:53:53Z" duration="0.1051471">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="131" result="Passed" start-time="2026-10-19 18:53:52Z" end-time="2026-10-19 18:53:53Z" duration="0.105147" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1159" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="131" result="Passed" start-time="2026-10-19 18:53:52Z" end-time="2026-10-19 18:53:53Z" duration="0.093248" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="16660" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1160" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="131" result="Passed" start-time="2026-10-19 18:53:52Z" end-time="2026-10-19 18:53:53Z" duration="0.089012" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1161" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="131" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.085126" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1162" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="131" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.079914" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1130" name="ResultUploadPayloadTests" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.072176" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1131" name="From_MapsCompleteSessionResult" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_MapsCompleteSessionResult" methodname="From_MapsCompleteSessionResult" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="1990806923" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.029709" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1133" name="From_RejectsNullResult" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_RejectsNullResult" methodname="From_RejectsNullResult" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="301246954" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.016174" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1132" name="From_UsesNullForUnavailableStatistics" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_UsesNullForUnavailableStatistics" methodname="From_UsesNullForUnavailableStatistics" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="1325473628" result="Passed" start-time="2026-10-19 18:53:53Z" end-time="2026-10-19 18:53:53Z" duration="0.003288" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

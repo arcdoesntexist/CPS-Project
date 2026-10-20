@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.5381868">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="131" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.538187" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1159" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="131" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.525230" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="44752" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1160" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="131" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.522887" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1161" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="131" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.520562" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1162" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="131" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.518135" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1045" name="GameSceneAuthoringTests" fullname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" classname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.512887" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1046" name="MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" fullname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests.MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" methodname="MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" classname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" runstate="Runnable" seed="1551265995" result="Failed" start-time="2026-10-19 18:59:17Z" end-time="2026-10-19 18:59:17Z" duration="0.476099" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneAuthoringTests.MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides () [0x002b8] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GameSceneAuthoringTests.cs:52
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

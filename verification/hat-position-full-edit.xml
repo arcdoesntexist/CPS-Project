@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="132" result="Passed" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.5202625">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="132" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.520263" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1160" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="132" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.508450" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="37604" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1161" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="132" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.506759" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1162" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="132" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.505596" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1163" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="132" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.504340" total="132" passed="132" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="BuildValidationTests" fullname="CPS.KitchenCatch.Tests.BuildValidationTests" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="1.001981" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1010" name="BrowserHarnessIsExcludedFromReleasePlayers" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessIsExcludedFromReleasePlayers" methodname="BrowserHarnessIsExcludedFromReleasePlayers" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="654404099" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:07Z" duration="0.015653" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="BrowserHarnessSustainedModeKeepsNaturalRoundTimer" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.BrowserHarnessSustainedModeKeepsNaturalRoundTimer" methodname="BrowserHarnessSustainedModeKeepsNaturalRoundTimer" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="2051024925" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:07Z" duration="0.000707" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" methodname="DevelopmentBuildUsesSeparateOutputAndDevelopmentFlag" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="149779396" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:07Z" duration="0.003073" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="DisabledRequiredSceneBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.DisabledRequiredSceneBlocksValidation" methodname="DisabledRequiredSceneBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="192743758" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:07Z" duration="0.004867" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" methodname="GameplaySceneEffectiveMissingPlayerOverrideBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1187290338" result="Passed" start-time="2026-10-20 09:22:07Z" end-time="2026-10-20 09:22:08Z" duration="0.870999" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="MismatchedControllerAndSpawnerPlayerBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MismatchedControllerAndSpawnerPlayerBlocksValidation" methodname="MismatchedControllerAndSpawnerPlayerBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="443762217" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.014187" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="MissingDifficultyReferenceBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingDifficultyReferenceBlocksValidation" methodname="MissingDifficultyReferenceBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="2050633483" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.023057" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="MissingFoodDefinitionBlocksValidation" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.MissingFoodDefinitionBlocksValidation" methodname="MissingFoodDefinitionBlocksValidation" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1835265789" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.013040" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ProductionBuildInputsValidate" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ProductionBuildInputsValidate" methodname="ProductionBuildInputsValidate" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1013990394" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.020671" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="ReleaseBuildRejectsDevelopmentOptions" fullname="CPS.KitchenCatch.Tests.BuildValidationTests.ReleaseBuildRejectsDevelopmentOptions" methodname="ReleaseBuildRejectsDevelopmentOptions" classname="CPS.KitchenCatch.Tests.BuildValidationTests" runstate="Runnable" seed="1186171778" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001615" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1012" name="GameRulesTests" fullname="CPS.KitchenCatch.Tests.GameRulesTests" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="28" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.075801" total="28" passed="28" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1017" name="ComboThresholdsAndReset" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ComboThresholdsAndReset" methodname="ComboThresholdsAndReset" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="794180104" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001761" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="DamageClampsAtZero" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DamageClampsAtZero" methodname="DamageClampsAtZero" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="821946094" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000566" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1033" name="DeathWinsAtDeadline" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DeathWinsAtDeadline" methodname="DeathWinsAtDeadline" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1094977287" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.019286" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="DuplicateObjectIdIsIgnored" fullname="CPS.KitchenCatch.Tests.GameRulesTests.DuplicateObjectIdIsIgnored" methodname="DuplicateObjectIdIsIgnored" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="447910633" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000825" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="FoodPointsAre10_15_20" fullname="CPS.KitchenCatch.Tests.GameRulesTests.FoodPointsAre10_15_20" methodname="FoodPointsAre10_15_20" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2055413779" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000222" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1032" name="HarmfulOutcomeDamagesOnceAndResetsCombo" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001587" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1030" name="HarmfulOutcomeDamagesOnceAndResetsCombo(Food,Missed)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo(Food,Missed)" methodname="HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="348397870" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000475" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1031" name="HarmfulOutcomeDamagesOnceAndResetsCombo(Trash,Caught)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.HarmfulOutcomeDamagesOnceAndResetsCombo(Trash,Caught)" methodname="HarmfulOutcomeDamagesOnceAndResetsCombo" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1855551487" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000093" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1034" name="LargeDtStopsAt60" fullname="CPS.KitchenCatch.Tests.GameRulesTests.LargeDtStopsAt60" methodname="LargeDtStopsAt60" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="339889701" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000236" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1029" name="RankBoundary" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.002070" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1018" name="RankBoundary(0,D)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(0,D)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="514364012" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000237" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1019" name="RankBoundary(1,D)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(1,D)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1257483368" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000087" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1020" name="RankBoundary(2,C)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(2,C)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2058638747" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000071" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1021" name="RankBoundary(3,B)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(3,B)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="542428443" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000071" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1022" name="RankBoundary(4,A)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(4,A)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="576618937" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000067" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1023" name="RankBoundary(5,S)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(5,S)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1943986817" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000064" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1024" name="RankBoundary(7,S)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(7,S)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="368619293" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000068" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1025" name="RankBoundary(8,SS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(8,SS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="977234401" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000065" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1026" name="RankBoundary(11,SS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(11,SS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="620258593" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000063" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1027" name="RankBoundary(12,SSS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(12,SSS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1378579353" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000058" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="RankBoundary(13,SSS)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.RankBoundary(13,SSS)" methodname="RankBoundary" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1663526105" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000062" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1041" name="ReadyAndRepeatedStartAreGuarded" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ReadyAndRepeatedStartAreGuarded" methodname="ReadyAndRepeatedStartAreGuarded" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1366577853" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000272" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1042" name="ResultCopyDoesNotShareStatistics" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyDoesNotShareStatistics" methodname="ResultCopyDoesNotShareStatistics" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1752650947" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001308" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="ResultCopyPreservesUnavailableStatistics" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultCopyPreservesUnavailableStatistics" methodname="ResultCopyPreservesUnavailableStatistics" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="2139900931" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000499" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1044" name="ResultJsonRoundTripsAllFields" fullname="CPS.KitchenCatch.Tests.GameRulesTests.ResultJsonRoundTripsAllFields" methodname="ResultJsonRoundTripsAllFields" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="607458969" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000755" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1037" name="TerminalEventOnce" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001100" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1035" name="TerminalEventOnce(False)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce(False)" methodname="TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="733443493" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000426" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1036" name="TerminalEventOnce(True)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalEventOnce(True)" methodname="TerminalEventOnce" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1166796515" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000068" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1040" name="TerminalRejectsFurtherOutcomes" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000886" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1038" name="TerminalRejectsFurtherOutcomes(False)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes(False)" methodname="TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1637395916" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000273" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1039" name="TerminalRejectsFurtherOutcomes(True)" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TerminalRejectsFurtherOutcomes(True)" methodname="TerminalRejectsFurtherOutcomes" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="1973478834" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000228" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1014" name="TrashMissIsHarmless" fullname="CPS.KitchenCatch.Tests.GameRulesTests.TrashMissIsHarmless" methodname="TrashMissIsHarmless" classname="CPS.KitchenCatch.Tests.GameRulesTests" runstate="Runnable" seed="489926433" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000218" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1045" name="GameSceneAuthoringTests" fullname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" classname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.040039" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1046" name="MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" fullname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests.MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" methodname="MenuAndGameplayUseOneAuthoredRigWithoutConfigurationOverrides" classname="CPS.KitchenCatch.Tests.GameSceneAuthoringTests" runstate="Runnable" seed="1362327373" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.039549" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1047" name="GlobalAudioSettingsTests" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.007303" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1048" name="DefaultsAreLoudAndBackgroundMusicIsEnabled" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.DefaultsAreLoudAndBackgroundMusicIsEnabled" methodname="DefaultsAreLoudAndBackgroundMusicIsEnabled" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="924532007" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.003837" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1049" name="ValuesPersistGloballyWithoutAProfile" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.ValuesPersistGloballyWithoutAProfile" methodname="ValuesPersistGloballyWithoutAProfile" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="975647706" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001584" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1050" name="InputStatsTests" fullname="CPS.KitchenCatch.Tests.InputStatsTests" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.007924" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1054" name="BalanceUsesPressedDurationAndCountsValidBothPressedTime" fullname="CPS.KitchenCatch.Tests.InputStatsTests.BalanceUsesPressedDurationAndCountsValidBothPressedTime" methodname="BalanceUsesPressedDurationAndCountsValidBothPressedTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1844144339" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000973" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="FiniteStrengthOutsideNormalizedRangeIsClamped" fullname="CPS.KitchenCatch.Tests.InputStatsTests.FiniteStrengthOutsideNormalizedRangeIsClamped" methodname="FiniteStrengthOutsideNormalizedRangeIsClamped" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="352074202" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000185" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1052" name="ForceMeanUsesOnlyForceAvailableDurationAndIncludesZero" fullname="CPS.KitchenCatch.Tests.InputStatsTests.ForceMeanUsesOnlyForceAvailableDurationAndIncludesZero" methodname="ForceMeanUsesOnlyForceAvailableDurationAndIncludesZero" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="2102219652" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000314" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1061" name="InvalidDurationDoesNotContribute" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001081" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1056" name="InvalidDurationDoesNotContribute(0.0f)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute(0.0f)" methodname="InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="929068487" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000292" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1057" name="InvalidDurationDoesNotContribute(-1.0f)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute(-1.0f)" methodname="InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1421038149" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000049" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1058" name="InvalidDurationDoesNotContribute(float.NaN)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute(float.NaN)" methodname="InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1364064688" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000033" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1059" name="InvalidDurationDoesNotContribute(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute(float.PositiveInfinity)" methodname="InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="392346432" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000033" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1060" name="InvalidDurationDoesNotContribute(float.NegativeInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidDurationDoesNotContribute(float.NegativeInfinity)" methodname="InvalidDurationDoesNotContribute" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="897553123" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000032" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1071" name="InvalidForceDoesNotContaminateValidStrength" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidForceDoesNotContaminateValidStrength" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000794" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1067" name="InvalidForceDoesNotContaminateValidStrength(float.NaN)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidForceDoesNotContaminateValidStrength(float.NaN)" methodname="InvalidForceDoesNotContaminateValidStrength" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="475645593" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000244" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1068" name="InvalidForceDoesNotContaminateValidStrength(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidForceDoesNotContaminateValidStrength(float.PositiveInfinity)" methodname="InvalidForceDoesNotContaminateValidStrength" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="616785356" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000042" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1069" name="InvalidForceDoesNotContaminateValidStrength(float.NegativeInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidForceDoesNotContaminateValidStrength(float.NegativeInfinity)" methodname="InvalidForceDoesNotContaminateValidStrength" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="2052352655" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000035" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1070" name="InvalidForceDoesNotContaminateValidStrength(-1.0f)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidForceDoesNotContaminateValidStrength(-1.0f)" methodname="InvalidForceDoesNotContaminateValidStrength" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1946427908" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000031" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1053" name="InvalidHandDoesNotRemoveOtherHandsValidTime" fullname="CPS.KitchenCatch.Tests.InputStatsTests.InvalidHandDoesNotRemoveOtherHandsValidTime" methodname="InvalidHandDoesNotRemoveOtherHandsValidTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1431524742" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000248" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="LargeFiniteValuesDoNotOverflowWeightedMeans" fullname="CPS.KitchenCatch.Tests.InputStatsTests.LargeFiniteValuesDoNotOverflowWeightedMeans" methodname="LargeFiniteValuesDoNotOverflowWeightedMeans" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1086888" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000139" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1066" name="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime" fullname="CPS.KitchenCatch.Tests.InputStatsTests.NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000697" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1063" name="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.NaN)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.NaN)" methodname="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="733091498" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000259" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1064" name="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.PositiveInfinity)" methodname="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1584697894" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000044" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1065" name="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.NegativeInfinity)" fullname="CPS.KitchenCatch.Tests.InputStatsTests.NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime(float.NegativeInfinity)" methodname="NonfiniteStrengthDoesNotDiscardValidForceOrPressedTime" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1107972156" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000033" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1055" name="ReleasedHandsHaveStrengthButNoBalance" fullname="CPS.KitchenCatch.Tests.InputStatsTests.ReleasedHandsHaveStrengthButNoBalance" methodname="ReleasedHandsHaveStrengthButNoBalance" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1477192248" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000161" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="ResetAndSnapshotCopiesProtectCollectedState" fullname="CPS.KitchenCatch.Tests.InputStatsTests.ResetAndSnapshotCopiesProtectCollectedState" methodname="ResetAndSnapshotCopiesProtectCollectedState" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="1356913173" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000299" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1051" name="StrengthMeanIncludesReleaseAndUsesDuration" fullname="CPS.KitchenCatch.Tests.InputStatsTests.StrengthMeanIncludesReleaseAndUsesDuration" methodname="StrengthMeanIncludesReleaseAndUsesDuration" classname="CPS.KitchenCatch.Tests.InputStatsTests" runstate="Runnable" seed="737307153" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000418" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1074" name="PresentationAuthoringTests" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.043606" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1076" name="BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" methodname="BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="2085128234" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.011562" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1085" name="GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" methodname="GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1145800878" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.013921" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" methodname="MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1090359886" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001326" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" methodname="MascotPrefabHasReadableSpritesForBothFacingsAndHatTouchesHead" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1434266072" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.003830" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1082" name="OverlayPanelsCoverMascotAndKeepControlsInsideCream" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.OverlayPanelsCoverMascotAndKeepControlsInsideCream" methodname="OverlayPanelsCoverMascotAndKeepControlsInsideCream" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="858550177" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.003421" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="ProductionAmbientPrefabHasNoGameplayColliders" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionAmbientPrefabHasNoGameplayColliders" methodname="ProductionAmbientPrefabHasNoGameplayColliders" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="847931430" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001116" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="ProductionIdleAndRunClipsHaveAnimatorLoopTime" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionIdleAndRunClipsHaveAnimatorLoopTime" methodname="ProductionIdleAndRunClipsHaveAnimatorLoopTime" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="875864550" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001701" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="ProductionSpritesHaveTightFootPivotsAndStretchablePanel" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionSpritesHaveTightFootPivotsAndStretchablePanel" methodname="ProductionSpritesHaveTightFootPivotsAndStretchablePanel" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1630395567" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001934" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1084" name="RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" methodname="RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1546206983" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001066" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" methodname="ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="2028953221" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000634" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1080" name="SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" methodname="SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1931262068" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001085" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1086" name="ProfileStoreTests" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="38" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.022527" total="38" passed="38" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1099" name="DuplicateNamesHaveDistinctPersistentGuidIds" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.DuplicateNamesHaveDistinctPersistentGuidIds" methodname="DuplicateNamesHaveDistinctPersistentGuidIds" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1628732467" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.005307" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1125" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.002150" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1123" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried(True)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried(True)" methodname="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="334692285" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001472" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1124" name="FailedBackupNeverOverwritesPrimaryAndCanBeRetried(False)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.FailedBackupNeverOverwritesPrimaryAndCanBeRetried(False)" methodname="FailedBackupNeverOverwritesPrimaryAndCanBeRetried" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2035249344" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000153" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1097" name="InvalidNamesDoNotCreateProfiles" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001141" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1093" name="InvalidNamesDoNotCreateProfiles(null)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(null)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="252812814" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000373" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1094" name="InvalidNamesDoNotCreateProfiles(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot;&quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="649309939" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000087" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1095" name="InvalidNamesDoNotCreateProfiles(&quot; \t\n &quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot; \t\n &quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1252309174" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000069" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1096" name="InvalidNamesDoNotCreateProfiles(&quot;abcdefghijklmnopqrstuvwxy&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidNamesDoNotCreateProfiles(&quot;abcdefghijklmnopqrstuvwxy&quot;)" methodname="InvalidNamesDoNotCreateProfiles" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="446905786" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000058" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1122" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.004428" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1106" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;not json&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;not json&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="751504130" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000373" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1107" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1672160848" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000137" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1108" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;null&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;null&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1630484390" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000297" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1109" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="15979274" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000245" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1110" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:null}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:null}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1822120947" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000173" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1111" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1593882330" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000110" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1112" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:\&quot;1\&quot;,\&quot;profiles\&quot;:[]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:\&quot;1\&quot;,\&quot;profiles\&quot;:[]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1828421737" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000106" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1113" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:1.5}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:1.5}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="226375596" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000334" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1114" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:42,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:42,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="93687347" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000126" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1115" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1188252306" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000109" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1116" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:2,\&quot;profiles\&quot;:[]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:2,\&quot;profiles\&quot;:[]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1528970171" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000119" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1117" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[null]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[null]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1593399524" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000136" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1118" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="422407258" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000185" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1119" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot; \&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot; \&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1476846926" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000174" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1120" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:-1}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:-1}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="64846853" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000157" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1121" name="InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0},{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;B\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidPayloadIsBackedUpBeforeItCanBeReplaced(&quot;{\&quot;schemaVersion\&quot;:1,\&quot;profiles\&quot;:[{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;Arc\&quot;,\&quot;PlayCount\&quot;:0},{\&quot;PlayerId\&quot;:\&quot;id\&quot;,\&quot;DisplayName\&quot;:\&quot;B\&quot;,\&quot;PlayCount\&quot;:0}]}&quot;)" methodname="InvalidPayloadIsBackedUpBeforeItCanBeReplaced" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1372878664" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000145" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1104" name="InvalidSessionDoesNotConsumeCount" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001386" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1101" name="InvalidSessionDoesNotConsumeCount(null)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(null)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="231350925" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000565" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1102" name="InvalidSessionDoesNotConsumeCount(&quot;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(&quot;&quot;)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2142633114" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000131" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1103" name="InvalidSessionDoesNotConsumeCount(&quot; &quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.InvalidSessionDoesNotConsumeCount(&quot; &quot;)" methodname="InvalidSessionDoesNotConsumeCount" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="804409521" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000085" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1087" name="MissingStorageStartsEmptyWithoutWarning" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.MissingStorageStartsEmptyWithoutWarning" methodname="MissingStorageStartsEmptyWithoutWarning" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="878713436" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000187" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1092" name="NamesAreTrimmedAndLiteral" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001613" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1088" name="NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;  อาร์ค  &quot;,&quot;อาร์ค&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="448132830" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000736" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1089" name="NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;,&quot;&lt;b&gt;Arc&lt;/b&gt;&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="824263393" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000125" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1090" name="NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;á&quot;,&quot;á&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1711735810" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000098" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1091" name="NamesAreTrimmedAndLiteral(&quot;2026-10-08T00:00:00Z&quot;,&quot;2026-10-08T00:00:00Z&quot;)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.NamesAreTrimmedAndLiteral(&quot;2026-10-08T00:00:00Z&quot;,&quot;2026-10-08T00:00:00Z&quot;)" methodname="NamesAreTrimmedAndLiteral" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2108309649" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000107" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1126" name="ReadFailureBlocksWritesUntilStorageCanBeRead" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ReadFailureBlocksWritesUntilStorageCanBeRead" methodname="ReadFailureBlocksWritesUntilStorageCanBeRead" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="689953937" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000852" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1100" name="ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" methodname="ResultCountsOncePerSessionAcrossProfilesAndReloadInSameRuntime" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="2058871195" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000401" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1129" name="SaveFailureKeepsProfilesAndSessionCountInMemory" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001000" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1127" name="SaveFailureKeepsProfilesAndSessionCountInMemory(True)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory(True)" methodname="SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1309941175" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000442" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1128" name="SaveFailureKeepsProfilesAndSessionCountInMemory(False)" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.SaveFailureKeepsProfilesAndSessionCountInMemory(False)" methodname="SaveFailureKeepsProfilesAndSessionCountInMemory" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1618656883" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000181" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1098" name="TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" methodname="TwentyFourTextElementsMayHaveMoreThanTwentyFourCodeUnits" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1759642555" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000779" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1105" name="UnknownPlayerDoesNotConsumeSession" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.UnknownPlayerDoesNotConsumeSession" methodname="UnknownPlayerDoesNotConsumeSession" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1289201" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000223" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1130" name="ValidEmptyListLoadsWithoutWarning" fullname="CPS.KitchenCatch.Tests.ProfileStoreTests.ValidEmptyListLoadsWithoutWarning" methodname="ValidEmptyListLoadsWithoutWarning" classname="CPS.KitchenCatch.Tests.ProfileStoreTests" runstate="Runnable" seed="1128698242" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000223" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1131" name="ResultUploadPayloadTests" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.008286" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1132" name="From_MapsCompleteSessionResult" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_MapsCompleteSessionResult" methodname="From_MapsCompleteSessionResult" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="822434136" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.006773" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="From_RejectsNullResult" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_RejectsNullResult" methodname="From_RejectsNullResult" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="1594445683" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000361" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1133" name="From_UsesNullForUnavailableStatistics" fullname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests.From_UsesNullForUnavailableStatistics" methodname="From_UsesNullForUnavailableStatistics" classname="CPS.KitchenCatch.Tests.ResultUploadPayloadTests" runstate="Runnable" seed="1647077253" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000419" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1135" name="SpawnPolicyTests" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.290357" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1136" name="EasyWrapDefersWithoutSkippingCyclicLane" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.EasyWrapDefersWithoutSkippingCyclicLane" methodname="EasyWrapDefersWithoutSkippingCyclicLane" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="282730788" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.002163" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1159" name="EmptyLanesAndInvalidCatchGeometryRejectPolicy" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.EmptyLanesAndInvalidCatchGeometryRejectPolicy" methodname="EmptyLanesAndInvalidCatchGeometryRejectPolicy" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="2124848793" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000349" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1145" name="InvalidFallSpeedRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.001174" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1141" name="InvalidFallSpeedRejectsConfig(0)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(0)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1226192462" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000302" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1142" name="InvalidFallSpeedRejectsConfig(-1)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(-1)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="910817551" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000122" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1143" name="InvalidFallSpeedRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(float.NaN)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1633422402" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000109" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1144" name="InvalidFallSpeedRejectsConfig(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidFallSpeedRejectsConfig(float.PositiveInfinity)" methodname="InvalidFallSpeedRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="389926192" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000100" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1150" name="InvalidIntervalRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000999" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1146" name="InvalidIntervalRejectsConfig(0)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(0)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="605753812" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000234" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1147" name="InvalidIntervalRejectsConfig(-1)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(-1)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="826102200" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000113" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1148" name="InvalidIntervalRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(float.NaN)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="265633645" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000100" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1149" name="InvalidIntervalRejectsConfig(float.PositiveInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidIntervalRejectsConfig(float.PositiveInfinity)" methodname="InvalidIntervalRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1763059610" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000101" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1154" name="InvalidTrashProbabilityRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000789" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1151" name="InvalidTrashProbabilityRejectsConfig(-0.1f)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(-0.1f)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="111835394" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000229" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1152" name="InvalidTrashProbabilityRejectsConfig(1.1f)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(1.1f)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1069959115" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000109" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1153" name="InvalidTrashProbabilityRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.InvalidTrashProbabilityRejectsConfig(float.NaN)" methodname="InvalidTrashProbabilityRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="212417825" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000094" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1140" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.281292" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1137" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Easy)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Easy)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="314099545" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.124783" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1138" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Normal)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Normal)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1489898160" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.085608" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1139" name="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Hard)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.ThousandSpawnsHaveReproducibleSafeCenteredCatchPath(Hard)" methodname="ThousandSpawnsHaveReproducibleSafeCenteredCatchPath" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="991126403" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.070111" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1158" name="UnreachableLaneRejectsConfig" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.002274" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1155" name="UnreachableLaneRejectsConfig(8)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(8)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="118647934" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000434" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1156" name="UnreachableLaneRejectsConfig(float.NaN)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(float.NaN)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="531507599" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000132" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1157" name="UnreachableLaneRejectsConfig(float.NegativeInfinity)" fullname="CPS.KitchenCatch.Tests.SpawnPolicyTests.UnreachableLaneRejectsConfig(float.NegativeInfinity)" methodname="UnreachableLaneRejectsConfig" classname="CPS.KitchenCatch.Tests.SpawnPolicyTests" runstate="Runnable" seed="1643269702" result="Passed" start-time="2026-10-20 09:22:08Z" end-time="2026-10-20 09:22:08Z" duration="0.000115" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

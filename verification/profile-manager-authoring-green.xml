@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.1426963">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.142696" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1164" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.129970" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2336" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1165" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.126968" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1166" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.124595" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1167" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.122266" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1074" name="PresentationAuthoringTests" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.117868" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1082" name="MainMenuProvidesBoundProfileManagementPanel" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.MainMenuProvidesBoundProfileManagementPanel" methodname="MainMenuProvidesBoundProfileManagementPanel" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="302047101" result="Passed" start-time="2026-10-20 11:43:43Z" end-time="2026-10-20 11:43:43Z" duration="0.098329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

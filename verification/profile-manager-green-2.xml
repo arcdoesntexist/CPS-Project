@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.1196322">
+  <test-suite type="TestSuite" id="1118" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="94" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.119632" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1111" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="94" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.112894" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="42128" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1112" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="94" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.111072" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1113" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="94" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.109571" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1114" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="94" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.107971" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1054" name="GameUITests" fullname="CPS.KitchenCatch.Tests.GameUITests" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.105190" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1065" name="BoundHudShowsRoundValuesAndSimulatedHandInputsWithoutNewtons" fullname="CPS.KitchenCatch.Tests.GameUITests.BoundHudShowsRoundValuesAndSimulatedHandInputsWithoutNewtons" methodname="BoundHudShowsRoundValuesAndSimulatedHandInputsWithoutNewtons" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="1304065940" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.037739" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1059" name="ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" fullname="CPS.KitchenCatch.Tests.GameUITests.ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" methodname="ChosenDifficultyRemainsVisibleWhenAnotherControlHasFocus" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="681478223" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.015409" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1056" name="CreationFieldAcceptsTwentyFourCombiningTextElementsAndShowsLiteralName" fullname="CPS.KitchenCatch.Tests.GameUITests.CreationFieldAcceptsTwentyFourCombiningTextElementsAndShowsLiteralName" methodname="CreationFieldAcceptsTwentyFourCombiningTextElementsAndShowsLiteralName" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="2116118681" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.006971" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="DeletingLastProfileClearsSelectionAndDisablesStart" fullname="CPS.KitchenCatch.Tests.GameUITests.DeletingLastProfileClearsSelectionAndDisablesStart" methodname="DeletingLastProfileClearsSelectionAndDisablesStart" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="1765779142" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.004336" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="DuplicateProfileNamesRemainSeparateDropdownChoicesById" fullname="CPS.KitchenCatch.Tests.GameUITests.DuplicateProfileNamesRemainSeparateDropdownChoicesById" methodname="DuplicateProfileNamesRemainSeparateDropdownChoicesById" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="240216184" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.001134" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="ProfileDeletionRequiresConfirmationAndSelectsNextProfile" fullname="CPS.KitchenCatch.Tests.GameUITests.ProfileDeletionRequiresConfirmationAndSelectsNextProfile" methodname="ProfileDeletionRequiresConfirmationAndSelectsNextProfile" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="842786954" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.002183" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="ProfileManagerRenamesSelectedProfileWithoutChangingIdentityOrCount" fullname="CPS.KitchenCatch.Tests.GameUITests.ProfileManagerRenamesSelectedProfileWithoutChangingIdentityOrCount" methodname="ProfileManagerRenamesSelectedProfileWithoutChangingIdentityOrCount" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="396903291" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.001915" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1066" name="RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" fullname="CPS.KitchenCatch.Tests.GameUITests.RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" methodname="RankPresentationEscalatesLetterNameColorAndAccentWithoutChangingScore" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="635252880" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.003702" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1064" name="ResultsDistinguishMissingSamplesFromValidZeroStrength" fullname="CPS.KitchenCatch.Tests.GameUITests.ResultsDistinguishMissingSamplesFromValidZeroStrength" methodname="ResultsDistinguishMissingSamplesFromValidZeroStrength" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="1257039684" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.004963" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1063" name="ResultsShowCompleteRoundAndUnavailableKeyboardForce" fullname="CPS.KitchenCatch.Tests.GameUITests.ResultsShowCompleteRoundAndUnavailableKeyboardForce" methodname="ResultsShowCompleteRoundAndUnavailableKeyboardForce" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="895892706" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.002029" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="SelectingExistingProfileOrDifficultyClearsRejectedNicknameWarning" fullname="CPS.KitchenCatch.Tests.GameUITests.SelectingExistingProfileOrDifficultyClearsRejectedNicknameWarning" methodname="SelectingExistingProfileOrDifficultyClearsRejectedNicknameWarning" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="787937444" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.001949" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1055" name="SettingsPanelEditsGlobalVolumeAndBackgroundMusic" fullname="CPS.KitchenCatch.Tests.GameUITests.SettingsPanelEditsGlobalVolumeAndBackgroundMusic" methodname="SettingsPanelEditsGlobalVolumeAndBackgroundMusic" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="759801717" result="Passed" start-time="2026-10-20 11:44:16Z" end-time="2026-10-20 11:44:16Z" duration="0.007165" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

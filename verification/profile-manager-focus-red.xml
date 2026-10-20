@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.0861676">
+  <test-suite type="TestSuite" id="1119" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.086168" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1112" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.075756" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="43848" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1113" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.072394" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1114" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.069735" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1115" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="95" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.067392" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1054" name="GameUITests" fullname="CPS.KitchenCatch.Tests.GameUITests" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.063302" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1063" name="ProfileManagerMovesKeyboardFocusAndCancelKeepsProfile" fullname="CPS.KitchenCatch.Tests.GameUITests.ProfileManagerMovesKeyboardFocusAndCancelKeepsProfile" methodname="ProfileManagerMovesKeyboardFocusAndCancelKeepsProfile" classname="CPS.KitchenCatch.Tests.GameUITests" runstate="Runnable" seed="754881488" result="Failed" start-time="2026-10-20 11:49:05Z" end-time="2026-10-20 11:49:05Z" duration="0.045598" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <Rename (UnityEngine.GameObject)>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameUITests.ProfileManagerMovesKeyboardFocusAndCancelKeepsProfile () [0x0009a] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameUITests.cs:243
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

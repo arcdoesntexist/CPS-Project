@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Failed(Child)" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.2268521">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="128" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.226852" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1155" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="128" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.218180" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23564" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1156" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="128" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.215922" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1157" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="128" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.214374" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1158" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="128" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.212642" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1047" name="GlobalAudioSettingsTests" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.040482" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1048" name="DefaultsAreLoudAndBackgroundMusicIsEnabled" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.DefaultsAreLoudAndBackgroundMusicIsEnabled" methodname="DefaultsAreLoudAndBackgroundMusicIsEnabled" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="931146226" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.017860" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1049" name="ValuesPersistGloballyWithoutAProfile" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.ValuesPersistGloballyWithoutAProfile" methodname="ValuesPersistGloballyWithoutAProfile" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="943756185" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.003760" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1074" name="PresentationAuthoringTests" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.164599" total="10" passed="9" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1076" name="BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" methodname="BananaPeelSliceIncludesCompleteSourceCurlWithoutMovingItsRuntimePivot" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="2076986606" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.016031" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1084" name="GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" methodname="GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1333338434" result="Failed" label="Error" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.092345" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object]]></message>
+                  <stack-trace><![CDATA[  at CPS.KitchenCatch.Tests.PresentationAuthoringTests.GlobalSettingsUseBoostMixerAndFfSpokenAcrossAllUi () [0x00199] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\PresentationAuthoringTests.cs:214 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1080" name="MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" methodname="MainPanelsUseNineSliceMaterialWithoutCoveringEveryStatistic" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="2064531699" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.007547" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="OverlayPanelsCoverMascotAndKeepControlsInsideCream" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.OverlayPanelsCoverMascotAndKeepControlsInsideCream" methodname="OverlayPanelsCoverMascotAndKeepControlsInsideCream" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1500669401" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.010635" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="ProductionAmbientPrefabHasNoGameplayColliders" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionAmbientPrefabHasNoGameplayColliders" methodname="ProductionAmbientPrefabHasNoGameplayColliders" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="2090096463" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.015603" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="ProductionIdleAndRunClipsHaveAnimatorLoopTime" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionIdleAndRunClipsHaveAnimatorLoopTime" methodname="ProductionIdleAndRunClipsHaveAnimatorLoopTime" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="1745595776" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.006615" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="ProductionSpritesHaveTightFootPivotsAndStretchablePanel" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ProductionSpritesHaveTightFootPivotsAndStretchablePanel" methodname="ProductionSpritesHaveTightFootPivotsAndStretchablePanel" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="849112012" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.001992" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" methodname="RankBadgeUsesLiveLetterNameAndThreeCodeNativeAccentsInsideExistingFootprint" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="958935283" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.004140" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1082" name="ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" methodname="ResultsActionsLeaveInputDisclosureReadableAndMenuStatusPadded" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="953127343" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.000980" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" fullname="CPS.KitchenCatch.Tests.PresentationAuthoringTests.SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" methodname="SharedRigUsesOriginalProductionDefinitionsAndCounterHeight" classname="CPS.KitchenCatch.Tests.PresentationAuthoringTests" runstate="Runnable" seed="983144019" result="Passed" start-time="2026-10-19 08:49:14Z" end-time="2026-10-19 08:49:14Z" duration="0.004257" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

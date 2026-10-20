@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.0881643">
+  <test-suite type="TestSuite" id="1000" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="127" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.088164" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1154" name="CPS.EditModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.EditModeTests.dll" runstate="Runnable" testcasecount="127" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.049830" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17692" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1155" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="127" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.047709" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1156" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="127" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.046300" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1157" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="127" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.044639" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1047" name="GlobalAudioSettingsTests" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.041193" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1048" name="DefaultsAreLoudAndBackgroundMusicIsEnabled" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.DefaultsAreLoudAndBackgroundMusicIsEnabled" methodname="DefaultsAreLoudAndBackgroundMusicIsEnabled" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="119907611" result="Passed" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.020040" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1049" name="ValuesPersistGloballyWithoutAProfile" fullname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.ValuesPersistGloballyWithoutAProfile" methodname="ValuesPersistGloballyWithoutAProfile" classname="CPS.KitchenCatch.Tests.GlobalAudioSettingsTests" runstate="Runnable" seed="502298937" result="Failed" start-time="2026-10-19 08:36:53Z" end-time="2026-10-19 08:36:53Z" duration="0.005827" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 0.0f +/- 0.00100000005f
+  But was:  -0.0412003994f
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GlobalAudioSettingsTests.ValuesPersistGloballyWithoutAProfile () [0x00088] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\EditMode\GlobalAudioSettingsTests.cs:41
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.8441189">
+  <test-suite type="TestSuite" id="1110" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.844119" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1103" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.835287" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="252" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1104" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.832893" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1105" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.830996" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1106" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.829317" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1028" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:51Z" duration="1.796571" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1031" name="ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" methodname="ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="766156425" result="Failed" start-time="2026-10-19 09:03:49Z" end-time="2026-10-19 09:03:50Z" duration="1.780972" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: same as <SETTINGS (UnityEngine.GameObject)>
+  But was:  <RESUME (UnityEngine.GameObject)>
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.GameSceneFlowTests+<ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound>d__5.MoveNext () [0x00322] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\GameSceneFlowTests.cs:146
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1087" name="LocalDemoAudioTests" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-19 09:03:51Z" end-time="2026-10-19 09:03:51Z" duration="0.026538" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1097" name="VolumeChangesMixerGainAndMascotUsesSfxGroup" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.VolumeChangesMixerGainAndMascotUsesSfxGroup" methodname="VolumeChangesMixerGainAndMascotUsesSfxGroup" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="276531208" result="Passed" start-time="2026-10-19 09:03:51Z" end-time="2026-10-19 09:03:51Z" duration="0.023117" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

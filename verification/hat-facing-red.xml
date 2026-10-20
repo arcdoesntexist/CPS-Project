@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.0573943">
+  <test-suite type="TestSuite" id="1115" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="91" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.057394" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1108" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="91" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.048696" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="15532" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1109" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="91" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.045943" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1110" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="91" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.043605" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1111" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="91" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.041297" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1099" name="PresentationTests" fullname="CPS.KitchenCatch.Tests.PresentationTests" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.037521" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1100" name="LeftMovementUsesLeftFacingReadableHatAndMirrorsItsOffset" fullname="CPS.KitchenCatch.Tests.PresentationTests.LeftMovementUsesLeftFacingReadableHatAndMirrorsItsOffset" methodname="LeftMovementUsesLeftFacingReadableHatAndMirrorsItsOffset" classname="CPS.KitchenCatch.Tests.PresentationTests" runstate="Runnable" seed="834705543" result="Failed" start-time="2026-10-20 08:43:53Z" end-time="2026-10-20 08:43:53Z" duration="0.025805" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at CPS.KitchenCatch.Tests.PresentationTests.Assign (System.Object target, System.String name, UnityEngine.Object value) [0x0000e] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:105
+at CPS.KitchenCatch.Tests.PresentationTests.LeftMovementUsesLeftFacingReadableHatAndMirrorsItsOffset () [0x00107] in C:\Users\Arc\Unity\CPS-Project\Assets\CPS\Tests\PlayMode\PresentationTests.cs:27
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

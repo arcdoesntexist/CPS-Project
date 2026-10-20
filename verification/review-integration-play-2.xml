@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.14783">
+  <test-suite type="TestSuite" id="1110" name="CPS-Project" fullname="CPS-Project" runstate="Runnable" testcasecount="87" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.147830" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1103" name="CPS.PlayModeTests.dll" fullname="C:/Users/Arc/Unity/CPS-Project/Library/ScriptAssemblies/CPS.PlayModeTests.dll" runstate="Runnable" testcasecount="87" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.139734" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="26712" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1104" name="CPS" fullname="CPS" runstate="Runnable" testcasecount="87" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.137533" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1105" name="KitchenCatch" fullname="CPS.KitchenCatch" runstate="Runnable" testcasecount="87" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.135797" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1106" name="Tests" fullname="CPS.KitchenCatch.Tests" runstate="Runnable" testcasecount="87" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.133378" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1028" name="GameSceneFlowTests" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.102544" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1031" name="ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" fullname="CPS.KitchenCatch.Tests.GameSceneFlowTests.ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" methodname="ProductionSettingsOpenFromMenuAndPauseThenBackDiscardsRound" classname="CPS.KitchenCatch.Tests.GameSceneFlowTests" runstate="Runnable" seed="471720164" result="Passed" start-time="2026-10-19 09:04:35Z" end-time="2026-10-19 09:04:37Z" duration="2.082825" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1087" name="LocalDemoAudioTests" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-19 09:04:37Z" end-time="2026-10-19 09:04:37Z" duration="0.024978" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1097" name="VolumeChangesMixerGainAndMascotUsesSfxGroup" fullname="CPS.KitchenCatch.Tests.LocalDemoAudioTests.VolumeChangesMixerGainAndMascotUsesSfxGroup" methodname="VolumeChangesMixerGainAndMascotUsesSfxGroup" classname="CPS.KitchenCatch.Tests.LocalDemoAudioTests" runstate="Runnable" seed="700172050" result="Passed" start-time="2026-10-19 09:04:37Z" end-time="2026-10-19 09:04:37Z" duration="0.021426" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/Arc/AppData/LocalLow/DefaultCompany/CPS-Project\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
