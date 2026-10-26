@@ -77,3 +77,13 @@ The sustained development run again emitted exactly two raw events whose only ar
 - The user-supplied licensed font and audio are absent, so Thai glyph/combining-mark and audio timing/mix/mute/autoplay acceptance remain open.
 - Physical FSR/load-cell input, calibrated Newton values, MQTT, HiveMQ, Node-RED, Google Sheets, and cloud behavior are outside this Unity-only verification.
 
+# Approved Main Menu design — 24 October 2026
+
+- Applied the approved Design Playground layout to `MainMenuCanvas.prefab`.
+- Added an interactive menu practice mascot using A/D or left/right arrows, stepped 10 FPS run sprites, bounded movement, and direction-specific readable IoTE helmet sprites.
+- Added the Game Rules overlay with food scores, trash effects, 60-second/3-HP rules, difficulty disclosure, and D/C/B/A/S/SS/SSS streak thresholds.
+- Preserved the existing profile create/select/edit/delete flow, global Settings, gameplay navigation, production font, kitchen background, and panel artwork.
+- Unity EditMode verification: 1 passed, 0 failed (`verification/approved-menu-final-editmode.xml`).
+- Unity PlayMode render verification: 1 passed, 0 failed (`verification/approved-menu-final-playmode.xml`).
+- Rendered references: `verification/approved-menu-captures/approved-menu-1920x1080.png` and `approved-rules-1920x1080.png`.
+

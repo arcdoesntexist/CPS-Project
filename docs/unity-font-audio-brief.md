@@ -1,10 +1,12 @@
 # Font & Audio Brief — IoTE Kitchen Catch
 
-สถานะ: ใช้ `FFSpokenTrial-Regular.ttf` กับ UI ทั้งหมดและ MP3 ที่ผู้ใช้ให้มา 5 ไฟล์เป็น asset ชั่วคราวสำหรับสาธิตในห้องเรียน ยังไม่มี license ที่ยืนยันสิทธิ์ embed/แจกจ่าย จึงไม่ถือว่าผ่าน production
+สถานะ: ใช้ `FFSpokenTrial-Regular.ttf` กับ UI ทั้งหมดและ MP3 ที่ผู้ใช้ให้มา 6 ไฟล์เป็น asset ชั่วคราวสำหรับสาธิตในห้องเรียน ยังไม่มี license ที่ยืนยันสิทธิ์ embed/แจกจ่าย จึงไม่ถือว่าผ่าน production
 
-สำหรับ demo ในห้องเรียน โค้ด Unity จะโหลด Lobby, Gameplay, Running, Triumph และ Death จาก `Assets/CPS/Resources/LocalDemoAudio` ถ้ามีไฟล์ในเครื่อง ดู URL ต้นทางและข้อจำกัดสิทธิ์ใน [README](../README.md) การระบุแหล่งที่มาไม่ใช่ใบอนุญาต โดยเฉพาะ Death ที่สืบย้อนถึง Rockstar Games / *Red Dead Redemption 2* ก่อนสร้าง build เพื่อแจกจ่าย ให้ย้ายหรือลบโฟลเดอร์นี้ออกจาก Unity project แล้ว build ใหม่ เสียง eat, hurt, rank-up, UI confirm, countdown และ go ยังไม่มี
+สำหรับ demo ในห้องเรียน โค้ด Unity จะโหลด Lobby, Gameplay, Running, Triumph, Death และ Chomping จาก `Assets/CPS/Resources/LocalDemoAudio` ถ้ามีไฟล์ในเครื่อง ดู URL ต้นทางและข้อจำกัดสิทธิ์ใน [README](../README.md) การระบุแหล่งที่มาไม่ใช่ใบอนุญาต โดยเฉพาะ Death ที่สืบย้อนถึง Rockstar Games / *Red Dead Redemption 2* ก่อนสร้าง build เพื่อแจกจ่าย ให้ย้ายหรือลบโฟลเดอร์นี้ออกจาก Unity project แล้ว build ใหม่ เสียง hurt, rank-up, UI confirm, countdown และ go ยังไม่มี
 
 ## แนวเสียง
+
+เพิ่มเสียงกินจาก `sound/Chomping.MP3` ของผู้ใช้แล้ว โดยนำเข้าเป็น `Assets/CPS/Resources/LocalDemoAudio/Chomping.MP3` และใช้เป็นค่าเริ่มต้นของ Mascot เมื่อ Eat Clip ยังไม่ได้กำหนดใน Inspector เสียงนี้ใช้การควบคุมเสียง global เดิมและไม่เปลี่ยนระดับเสียงอื่น
 
 ครัวอบอุ่น สนุก ขี้เล่น แบบ cartoon ผสมเสียงเกมย้อนยุคเล็กน้อย ไม่ดุดันหรือหนักแบบเกมต่อสู้ Combo อิงความรู้สึกไต่ระดับของ DMC5 แต่ไม่ใช้เสียง เพลง หรือ voice line จากเกมนั้น
 
