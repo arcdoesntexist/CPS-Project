@@ -1,41 +1,72 @@
 # Changelog
 
-## 2.0.0 — 2026-10-26
+This file records the project changes between committed versions. Project purpose, gameplay and setup information belong in [README.md](README.md).
 
-Version 2.0.0 turns this repository into a directly openable Unity 6.3 LTS project. Version 1.0.0 primarily contained design, artwork, verification records and integration documentation while the Unity checkout lived separately.
+## Version 2.0.0 — 2026-10-26
 
-### Added since 1.0.0
+Version 2.0.0 changes CPS Kitchen Catch from a design-and-evidence repository into a directly openable and tested Unity project.
 
-- Complete Unity source snapshot: `Assets`, `Packages` and `ProjectSettings`, with required `.meta` files and Git LFS rules for binary assets.
-- Illustrated Home UI, profile selection and profile management with create, rename, select and delete flows.
-- Redesigned Gameplay HUD, pause/settings flow, rules overlay and enlarged mascot catch zone.
-- Redesigned Results view with difficulty badge, item counts and optional detailed round statistics.
-- Easy kitchen, Normal daytime cafe and Hard nighttime cafe environments, including subtle animated decoration.
-- Engineer-hat facing and placement fixes, Triumph/death presentation, food burst and dissolve effects.
-- Global volume/background-music settings, FF Spoken Trial UI integration and optional local demo-audio loading, including Chomping for caught food.
-- Google Sheets result upload support for completed single-player profiles.
-- Editor authoring utilities and automated EditMode/PlayMode coverage for the shipped scenes and UI.
+### Difference from Version 1.0.0
+
+| Area | Version 1.0.0 | Version 2.0.0 |
+| --- | --- | --- |
+| Repository | Design files, production artwork, implementation notes and verification evidence | Complete Unity project with `Assets`, `Packages` and `ProjectSettings` |
+| Playable flow | Unity checkout was maintained separately | Boot, profile selection, difficulty selection, gameplay, pause and results are included in the repository |
+| Profiles | Proposed workflow | Create, select, rename and delete local profiles |
+| Difficulty | Design specification | Easy, Normal and Hard configurations with different speeds, intervals, hazard rates and environments |
+| Gameplay | Approved concept and rules | 60-second rounds with food, rubbish, HP, score and D-to-SSS combo ranks |
+| Results | Planned statistics | Outcome, score, difficulty badge, item counts, combo rank and detailed round statistics |
+| Environments | Initial kitchen artwork | Kitchen, daytime cafe and nighttime cafe with separate ambient decorations |
+| Presentation | Character and UI references | Mascot animation, readable two-facing IoTE helmet, eat/hurt/triumph/death effects and redesigned UI |
+| Audio and settings | Demo sources and audio direction | Global volume, background-music toggle and optional local demo-audio loading |
+| Cloud data | Integration plan | Google Sheets result payload and upload client for completed rounds |
+| Automated verification | Reports from development stages | EditMode and PlayMode suites included with the Unity source |
+
+### Added
+
+- Complete Unity 6.3 LTS source snapshot and required `.meta` files.
+- Home screen based on the approved Kitchen Catch UI, including profile management and difficulty badges.
+- Gameplay HUD, game-rules overlay, pause menu and global audio settings.
+- Results screen with summary and expandable detailed round information.
+- Three environment presentations linked to difficulty.
+- Food and rubbish item tracking in the final result.
+- Google Sheets upload payload containing profile, round, score, item, combo and available input statistics.
+- Editor authoring utilities and automated EditMode/PlayMode tests.
+- `VERSION` file and Unity `bundleVersion` set to `2.0.0`.
 
 ### Changed
 
-- Unity application `bundleVersion` is now `2.0.0`.
-- Gameplay presentation and UI were brought in line with the approved warm kitchen visual system.
-- Scene difficulty references inherit from the shared GameplayRig prefab so Easy, Normal and Hard remain valid without scene overrides.
-- Audio tests now match the user-approved lobby, gameplay and running volumes.
+- Increased the mascot catch area to make food collection more forgiving.
+- Corrected the engineer helmet position and provided separate left- and right-facing artwork while keeping `IoTE` readable.
+- Updated the menu, gameplay and results layouts to the approved warm kitchen visual system.
+- Moved audio controls into global settings rather than storing them per profile.
+- Aligned scene difficulty references with the shared GameplayRig prefab.
+- Updated the approved lobby, gameplay and running audio levels and added the Chomping catch sound hook.
 
 ### Verification
 
 - Unity `6000.3.25f1` EditMode: 151 passed, 0 failed.
 - Unity `6000.3.25f1` PlayMode: 100 passed, 0 failed.
-- A fresh WebGL build was not produced during release preparation.
+- Required Unity assets were checked for matching `.meta` files.
+- A fresh WebGL build was not produced during Version 2.0.0 release preparation.
 
-### Current boundaries
+### Known limitations
 
-- Version 2.0.0 is the completed Single Player game. The proposed local two-player Versus mode is still a draft and is not included.
-- STM32/ESP32 serial input, MQTT and Node-RED are not implemented in this Unity release.
-- Runtime demo MP3s remain local-only. The committed `sound` files have incomplete redistribution evidence and should be replaced before public distribution.
-- `FFSpokenTrial-Regular.ttf` remains a temporary trial font and should be replaced with a licensed font before public distribution.
+- ESP32, physical FSR input, serial/MQTT and Node-RED communication are not integrated in this release.
+- Keyboard input is simulated `0%`/`100%` input and does not produce calibrated force measurements.
+- Local two-player Versus mode remains a design draft and is not part of Version 2.0.0.
+- Demo MP3s and `FFSpokenTrial-Regular.ttf` require replacement or license verification before public distribution.
 
-## 1.0.0
+## Version 1.0.0 — 2026-10-20
 
-- Initial repository baseline with game design, production artwork, integration documentation, demo audio sources and verification records.
+Initial repository baseline for CPS Kitchen Catch.
+
+### Included
+
+- Approved game concept and Unity implementation specification.
+- Character, item, kitchen background and UI production artwork.
+- Gameplay, combo-rank, death and result-screen design references.
+- Asset provenance, setup notes and staged verification records.
+- Classroom demo audio source files and attribution notes.
+
+The playable Unity checkout was maintained outside this repository at this version.
