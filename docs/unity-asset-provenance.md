@@ -1,5 +1,11 @@
 # Production artwork provenance and integration notes
 
+## Cafe environment pack — 25 October 2026
+
+User approved direct delivery of Normal daytime cafe, Hard nighttime counterpart and matching decorations, retaining the existing kitchen for Easy. Built-in image_gen produced two opaque 1672 x 941 backgrounds and a transparent 1536 x 1024 six-prop atlas. Sources are in `art/production/cafe/`; exact prompts and original output paths are in `generation-prompts.json`, with alpha inspection and custom sprite rectangles in the adjacent README/JSON. The night image is a lighting edit of the day image; background geometry and counter plane visually match. The source kitchen and the user's two supplied room references guided the daytime composition. No new asset was imported into Unity during the initial art delivery. The source folder is canonical; the duplicate asset-only ZIP is omitted from Version 2.0.0.
+
+Subsequently integrated into Unity at the user's request. All three imported PNG SHA256 hashes match their source files. Backgrounds use the existing 104.5 PPU; six prop slices preserve their measured padded rectangles and suggested pivots. Gameplay selects environments on RoundStarting and uses restrained scenery-only motion. Evidence: `verification/cafe-unity/RESULTS.md`, EditMode 151/151, PlayMode 98/100 with unchanged audio failures, and six actual Unity renders. No source raster was altered during integration.
+
 วันที่สร้าง: 8 ตุลาคม 2026; วิธี: built-in image_gen ผ่าน skill imagegen ไม่ใช้ API/CLI fallback ภาพอ้างอิงคือ mockup ของโปรเจกต์ที่ผู้ใช้อนุมัติ ไม่ใช้ asset ที่ rip จากเกมอื่น
 
 สถานะ: Task7 นำเข้า source PNG ทั้งหกไฟล์เป็น production sprites แล้ว; หลักฐานการตรวจใน Unity อยู่ท้ายเอกสารนี้

@@ -4,7 +4,7 @@
 
 - Windows demonstration machine used for verification: Unity `6000.3.25f1`, Universal 2D project.
 - Install `Web Build Support` for that exact Editor version in Unity Hub. The verified module root is `C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\WebGLSupport` and includes `UnityEditor.WebGL.Extensions.dll` plus Emscripten.
-- Project root: `C:\Users\Arc\Unity\CPS-Project`.
+- Project root: the cloned repository root containing `Assets`, `Packages`, and `ProjectSettings`.
 - Open `Assets/CPS/Scenes/Boot.unity` before using Play Mode. Boot routes to Main Menu, then the selected profile and difficulty route to Gameplay.
 
 ## Play the current build
