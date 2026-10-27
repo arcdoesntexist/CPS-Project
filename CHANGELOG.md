@@ -2,6 +2,33 @@
 
 This file records the project changes between committed versions. Project purpose, gameplay and setup information belong in [README.md](README.md).
 
+## Version 2.1.0 — 2026-10-27
+
+### Added
+
+- Global Keyboard / FSR / Load Cell selector on Home and USB recovery controls in Pause.
+- One combined ESP32 sketch with FSR on GPIO34/35 and HX711 pairs DT32/SCK18 and DT33/SCK4, at 115200 baud.
+- Windows Editor USB serial and a native browser permission button for Web Serial on HTTPS/localhost.
+- Strict versioned JSON telemetry, independent sample freshness, asynchronous tare, and reset/reconnect guards.
+- Automatic pause on stale input, USB loss or board restart; explicit Resume after recovery.
+- Spacebar/Escape Pause/Resume with modal/text-entry guards, retaining A/D/B and arrow controls.
+- Source-aware statistics: FSR relative 0–100%; Load Cell estimated Max/Average N; no simulated Newton values.
+- Controller settings asset, firmware/host tests, Unity controller tests and USB setup documentation.
+
+### Changed
+
+- Kept the user's replacement left-FSR values: released 4095 and reference press 156.5, replacing 551/135 in the combined sketch.
+- Updated combined-firmware test ADC samples and README pin/calibration tables to match the current sensors.
+- Used a numeric fallback font in live controller readouts to display the trial font's missing percent glyph.
+- Set `VERSION` and Unity `bundleVersion` to `2.1.0`. Telemetry schema remains version 1; HX711 force coefficients are unchanged.
+
+### Verification and limits
+
+- User confirmed successful gameplay with the updated sensor sketch.
+- USB implementation evidence: EditMode 189/189; PlayMode 106/107 with one existing audio-volume assertion; JS bridge 7/7; combined firmware host cases 10/10; successful ESP32 compile and WebGL build.
+- Automated verification did not upload firmware or open physical serial ports. Load Cell calibration and fault/latency checks remain hardware-dependent.
+- MQTT, Node-RED and the planned Versus mode remain outside this version.
+
 ## Version 2.0.0 — 2026-10-26
 
 Version 2.0.0 changes CPS Kitchen Catch from a design-and-evidence repository into a directly openable and tested Unity project.

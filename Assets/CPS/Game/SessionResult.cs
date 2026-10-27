@@ -11,6 +11,7 @@ namespace CPS.KitchenCatch
         public string DisplayName;
         public string EndedAtUtc;
         public string InputSource;
+        public string CalibrationVersion;
         public DifficultyId Difficulty;
         public EndReason EndReason;
         public float PlayedSeconds;

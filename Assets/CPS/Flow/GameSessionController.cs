@@ -21,10 +21,17 @@ namespace CPS.KitchenCatch
         private string playerId;
         private string displayName;
         private string inputSource;
+        private string calibrationVersion;
+        private int connectionGeneration;
+        private uint bootRevision;
         private bool hasRound;
         public GameSessionModel Model { get; private set; } = new GameSessionModel();
         public SessionState State => state;
         public bool IsPaused { get; private set; }
+        public string InputIssue { get; private set; }
+        public ControllerInput Router => input as ControllerInput;
+        public bool CanResume => IsPaused && (Router == null || Router.CanPlay(out _));
+        public bool CanRestart => Router == null || Router.CanPlay(out _);
         public InputSnapshot LastInput { get; private set; }
         public float CountdownSeconds { get; private set; }
         public SessionResult LastResult => result?.Copy();
@@ -46,6 +53,7 @@ namespace CPS.KitchenCatch
             if (session.SelectedProfile == null) return "Select a profile before starting.";
             if (player == null) return "GameSessionController player reference is missing.";
             if (input == null && keyboardInput == null) return "Keyboard input reference is missing.";
+            if (input is ControllerInput selected && !selected.CanPlay(out string inputError)) return inputError;
             if (spawner == null) return "FallingObjectSpawner reference is missing.";
             if (spawner.Player != null && spawner.Player != player)
                 return "GameSessionController player must match FallingObjectSpawner player.";
@@ -64,16 +72,27 @@ namespace CPS.KitchenCatch
         {
             if (app == null) app = AppSession.Instance;
             if (GetValidationError(app) != null) return false;
+            input ??= ControllerInput.EnsureExists();
+            if (Router != null)
+            {
+                Router.ReleaseRound();
+                if (!Router.CanPlay(out string reason)) { InputIssue = reason; return false; }
+                Router.FreezeForRound();
+                connectionGeneration = Router.Connection.ConnectionGeneration;
+                bootRevision = Router.Connection.Packets.BootRevision;
+            }
             spawner.StopAndClear();
             if (roundConfig != null) Destroy(roundConfig);
             roundConfig = Instantiate(FindDifficulty(app.SelectedDifficulty));
             RoundStarting?.Invoke(roundConfig.difficulty);
-            input ??= keyboardInput;
             playerId = app.SelectedProfile.PlayerId;
             displayName = app.SelectedProfile.DisplayName;
             Model = new GameSessionModel();
             Model.Health.Reset(3);
             stats.Reset(); result = null; inputSource = null;
+            inputSource = Router?.SelectedMode.ToString();
+            calibrationVersion = Router?.SelectedMode == ControllerMode.Keyboard ? null : Router?.Connection.Packets.Latest?.CalibrationVersion;
+            InputIssue = null;
             LastInput = default;
             IsPaused = false; CountdownSeconds = 3; terminalSeconds = 0;
             player.ResetPosition();
@@ -86,6 +105,17 @@ namespace CPS.KitchenCatch
         public void Step(float dt)
         {
             if (!hasRound || IsPaused || !DifficultyConfig.FinitePositive(dt)) return;
+            if ((State == SessionState.Ready || State == SessionState.Playing) && Router != null &&
+                Router.SelectedMode != ControllerMode.Keyboard &&
+                (connectionGeneration != Router.Connection.ConnectionGeneration || bootRevision != Router.Connection.Packets.BootRevision))
+            {
+                InputIssue = "USB controller restarted. Check the connection, then resume.";
+                Pause(); return;
+            }
+            if ((State == SessionState.Ready || State == SessionState.Playing) && Router != null && !Router.CanPlay(out string reason))
+            {
+                InputIssue = reason; Pause(); return;
+            }
             if (State == SessionState.Triumph || State == SessionState.Dying)
             {
                 terminalSeconds -= dt;
@@ -111,7 +141,8 @@ namespace CPS.KitchenCatch
             float step = Mathf.Min(dt, Model.RemainingSeconds);
             var snapshot = input.Read();
             LastInput = snapshot;
-            inputSource = snapshot.Source;
+            inputSource ??= snapshot.Source;
+            calibrationVersion ??= snapshot.CalibrationVersion;
             player.Step(snapshot, step);
             presentation?.SetMovement(player.MovementDirection);
             spawner.Step(step);
@@ -142,7 +173,7 @@ namespace CPS.KitchenCatch
                 PlayedSeconds = Model.PlayedSeconds, RemainingHp = Model.Health.CurrentHp,
                 Score = score.Score, FoodCaught = score.FoodCaught, FoodMissed = score.FoodMissed,
                 TrashEaten = score.TrashEaten, MaxCombo = score.MaxCombo, HighestRank = score.HighestRank,
-                InputSource = inputSource, InputStatistics = stats.Snapshot(),
+                InputSource = inputSource, CalibrationVersion = calibrationVersion, InputStatistics = stats.Snapshot(),
                 CaughtItems = (int[])Model.CaughtItems.Clone()
             };
             var frozen = result;
@@ -162,19 +193,28 @@ namespace CPS.KitchenCatch
         {
             if (!hasRound || (State != SessionState.Ready && State != SessionState.Playing)) return;
             IsPaused = true;
+            if (Router != null) Router.Connection.ControlsLocked = false;
             player.Step(default, 0);
             presentation?.SetMovement(0);
             LastInput = default;
         }
         public void Resume()
         {
-            if (!IsPaused) return;
+            if (!CanResume) return;
+            InputIssue = null;
+            if (Router != null)
+            {
+                connectionGeneration = Router.Connection.ConnectionGeneration;
+                bootRevision = Router.Connection.Packets.BootRevision;
+                Router.Connection.ControlsLocked = true;
+            }
             IsPaused = false; CountdownSeconds = 3;
         }
-        public void Restart() => BeginRound();
+        public bool Restart() => BeginRound();
         public void ReturnToMenu()
         {
             spawner?.StopAndClear(); hasRound = false; IsPaused = false;
+            Router?.ReleaseRound();
             LastInput = default;
             navigator?.GoTo("MainMenu");
         }
@@ -184,6 +224,7 @@ namespace CPS.KitchenCatch
         private void OnApplicationFocus(bool focused) { if (!focused) Pause(); }
         private void OnDestroy()
         {
+            Router?.ReleaseRound();
             spawner?.StopAndClear();
             if (roundConfig != null) Destroy(roundConfig);
         }

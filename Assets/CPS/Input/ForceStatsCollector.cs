@@ -59,7 +59,7 @@ namespace CPS.KitchenCatch
 
                 if (input.Pressed)
                     PressedDuration += dt;
-                if (IsFinite(input.Strength01))
+                if (input.HasStrength && IsFinite(input.Strength01))
                 {
                     float strength = Math.Clamp(input.Strength01, 0, 1);
                     strengthDuration += dt;

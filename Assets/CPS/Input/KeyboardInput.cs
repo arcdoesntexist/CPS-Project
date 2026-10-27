@@ -14,7 +14,7 @@ namespace CPS.KitchenCatch
                 return new InputSnapshot(default, default, "Keyboard");
 
             bool left = keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed;
-            bool right = keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed;
+            bool right = keyboard.dKey.isPressed || keyboard.bKey.isPressed || keyboard.rightArrowKey.isPressed;
             return new InputSnapshot(
                 new HandInput(left, left ? 1 : 0, true, null),
                 new HandInput(right, right ? 1 : 0, true, null), "Keyboard");

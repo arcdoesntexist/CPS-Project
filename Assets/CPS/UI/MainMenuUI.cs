@@ -24,6 +24,8 @@ namespace CPS.KitchenCatch
         [SerializeField] private Button hardButton;
         [SerializeField] private Button settingsButton;
         [SerializeField] private AudioSettingsPanel settingsPanel;
+        [SerializeField] private ControllerPanel controllerPanel;
+        [SerializeField] private Button controllerButton;
         [SerializeField] private GameObject howToPlayPanel;
         [SerializeField] private GameObject[] howToPlayObjects;
         [SerializeField] private GameObject profileManagerPanel;
@@ -75,6 +77,7 @@ namespace CPS.KitchenCatch
             if (normalButton != null) normalButton.onClick.AddListener(SelectNormal);
             if (hardButton != null) hardButton.onClick.AddListener(SelectHard);
             if (settingsButton != null) settingsButton.onClick.AddListener(OpenSettings);
+            if (controllerButton != null) controllerButton.onClick.AddListener(OpenController);
             if (manageProfilesButton != null) manageProfilesButton.onClick.AddListener(ShowProfileManager);
             if (saveNameButton != null) saveNameButton.onClick.AddListener(RenameFromButton);
             if (useProfileButton != null) useProfileButton.onClick.AddListener(UseManagedProfile);
@@ -97,6 +100,7 @@ namespace CPS.KitchenCatch
             if (normalButton != null) normalButton.onClick.RemoveListener(SelectNormal);
             if (hardButton != null) hardButton.onClick.RemoveListener(SelectHard);
             if (settingsButton != null) settingsButton.onClick.RemoveListener(OpenSettings);
+            if (controllerButton != null) controllerButton.onClick.RemoveListener(OpenController);
             if (manageProfilesButton != null) manageProfilesButton.onClick.RemoveListener(ShowProfileManager);
             if (saveNameButton != null) saveNameButton.onClick.RemoveListener(RenameFromButton);
             if (useProfileButton != null) useProfileButton.onClick.RemoveListener(UseManagedProfile);
@@ -383,7 +387,7 @@ namespace CPS.KitchenCatch
         public bool StartSelectedGame()
         {
             RefreshStatus();
-            return ValidationError == null && navigator != null && navigator.GoTo("Gameplay");
+            return ValidationError == null && ControllerInput.EnsureExists().CanPlay(out _) && navigator != null && navigator.GoTo("Gameplay");
         }
 
         private void SelectProfile(int index)
@@ -399,10 +403,11 @@ namespace CPS.KitchenCatch
         {
             var app = AppSession.Instance;
             string error = ValidationError;
-            if (startButton != null) startButton.interactable = error == null && navigator != null && !navigator.IsTransitioning;
+            bool controllerReady = !Application.isPlaying || ControllerInput.EnsureExists().CanPlay(out _);
+            if (startButton != null) startButton.interactable = error == null && controllerReady && navigator != null && !navigator.IsTransitioning;
             if (status != null)
             {
-                status.text = localWarning ?? error ?? (app?.SelectedProfile == null
+                status.text = localWarning ?? error ?? (!controllerReady ? "Connect controller" : app?.SelectedProfile == null
                     ? "No profiles yet"
                     : app.SelectedProfile.DisplayName + " · " + difficulty);
                 if (app?.Store != null && !string.IsNullOrEmpty(app.Store.Warning)) status.text += "\n" + app.Store.Warning;
@@ -423,6 +428,7 @@ namespace CPS.KitchenCatch
         private void SelectNormal() => SelectDifficulty(DifficultyId.Normal);
         private void SelectHard() => SelectDifficulty(DifficultyId.Hard);
         private void OpenSettings() => settingsPanel?.Show();
+        private void OpenController() => controllerPanel?.Show();
         private void RenameFromButton() => RenameManagedProfile();
         private void DeleteFromButton() => ConfirmDeleteManagedProfile();
     }

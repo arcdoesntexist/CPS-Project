@@ -7,6 +7,9 @@
 # and distributed under Creative Commons Zero v1.0 Universal license.
 
 # This .gitignore file should be placed at the root of your Unity project directory
+.utmp/
+/Assets/CPS/Resources/LocalDemoAudio/
+/Assets/CPS/Resources/LocalDemoAudio.meta
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #

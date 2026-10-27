@@ -82,20 +82,25 @@ namespace CPS.KitchenCatch
             Set(details,"Round stats",$"Time played                     {result.PlayedSeconds:0.0} s\nHP remaining                     {result.RemainingHp} / 3\nFood caught                         {result.FoodCaught}\nFood missed                        {result.FoodMissed}" +
                 (easy ? "" : "\nTrash eaten                         " + result.TrashEaten));
             var stats=result.InputStatistics;
-            Set(details,"Input source",(result.InputSource ?? "Unknown input") + " - strength 0-100");
+            Set(details,"Input source",result.InputSource == "LoadCell" ? "Load Cell - Estimated Force (N)" :
+                result.InputSource == "FSR" ? "FSR - relative press level" : "Keyboard - simulated input");
             Set(details,"Left",Hand("LEFT",stats?.Left));Set(details,"Right",Hand("RIGHT",stats?.Right));
             Set(details,"Balance","Both pressed  " + (stats?.BothPressedDurationSeconds ?? 0).ToString("0.0") + " s\nLeft / right balance  " +
                 (stats?.HasBalance == true ? (stats.LeftBalance01*100).ToString("0") + "% / " + ((1-stats.LeftBalance01)*100).ToString("0") + "%" : "N/A"));
-            Set(details,"Force",Force(stats));
+            Set(details,"Force",Force(stats,result.InputSource));
             Expand(false);
         }
-        private static string Hand(string name,HandStatistics hand) => hand?.HasStrength == true ?
+        private static string Hand(string name,HandStatistics hand) => hand?.HasForce == true && !hand.HasStrength ?
+            $"{name}\nAverage   {hand.MeanForceN:0.00} N\nMaximum   {hand.MaxForceN:0.00} N\nPressed   {hand.PressedDurationSeconds:0.0} s" : hand?.HasStrength == true ?
             $"{name}\nAverage   {hand.MeanStrength01*100:0}%\nMaximum   {hand.MaxStrength01*100:0}%\nPressed   {hand.PressedDurationSeconds:0.0} s" : name + "\nAverage   N/A\nMaximum   N/A\nPressed   0.0 s";
-        private static string Force(InputStatistics stats)
+        private static string Force(InputStatistics stats,string source)
         {
-            if(stats?.Left?.HasForce != true || stats?.Right?.HasForce != true)
-                return "Average     N/A       N/A\nMaximum    N/A       N/A\n\nSensor not connected";
-            return $"                 LEFT       RIGHT\nAverage     {stats.Left.MeanForceN:0.0}        {stats.Right.MeanForceN:0.0}\nMaximum    {stats.Left.MaxForceN:0.0}        {stats.Right.MaxForceN:0.0}";
+            if(source == "FSR") return "N/A - not measured in FSR mode";
+            if(source == "Keyboard") return "N/A - keyboard input is simulated";
+            if(string.IsNullOrEmpty(source)) return "N/A - Sensor not connected";
+            string Value(HandStatistics hand,bool maximum) => hand?.HasForce == true ? (maximum ? hand.MaxForceN : hand.MeanForceN).ToString("0.00") : "N/A";
+            return "                 LEFT       RIGHT\nAverage     " + Value(stats?.Left,false) + "        " + Value(stats?.Right,false) +
+                "\nMaximum    " + Value(stats?.Left,true) + "        " + Value(stats?.Right,true);
         }
     }
 }

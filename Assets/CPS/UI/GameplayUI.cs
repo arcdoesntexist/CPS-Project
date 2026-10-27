@@ -27,6 +27,10 @@ namespace CPS.KitchenCatch
         [SerializeField] private Button settingsButton;
         [SerializeField] private Button backToMenuButton;
         [SerializeField] private AudioSettingsPanel settingsPanel;
+        [SerializeField] private ControllerPanel controllerPanel;
+        [SerializeField] private Button controllerButton;
+        [SerializeField] private PauseHotkeys pauseHotkeys;
+        [SerializeField] private Text controllerNotice;
         [SerializeField] private GameObject pauseOverlay;
         [SerializeField] private ResultPanel resultPanel;
         [SerializeField] private bool referenceHud;
@@ -51,6 +55,7 @@ namespace CPS.KitchenCatch
             if (pauseButton != null) pauseButton.onClick.AddListener(Pause);
             if (resumeButton != null) resumeButton.onClick.AddListener(Resume);
             if (settingsButton != null) settingsButton.onClick.AddListener(OpenSettings);
+            if (controllerButton != null) controllerButton.onClick.AddListener(OpenController);
             if (backToMenuButton != null) backToMenuButton.onClick.AddListener(BackToMenu);
             Bind(controller);
         }
@@ -60,6 +65,7 @@ namespace CPS.KitchenCatch
             if (pauseButton != null) pauseButton.onClick.RemoveListener(Pause);
             if (resumeButton != null) resumeButton.onClick.RemoveListener(Resume);
             if (settingsButton != null) settingsButton.onClick.RemoveListener(OpenSettings);
+            if (controllerButton != null) controllerButton.onClick.RemoveListener(OpenController);
             if (backToMenuButton != null) backToMenuButton.onClick.RemoveListener(BackToMenu);
             Unsubscribe();
         }
@@ -75,6 +81,7 @@ namespace CPS.KitchenCatch
                 listening = true;
             }
             if (resultPanel != null) resultPanel.Bind(source);
+            if (pauseHotkeys != null) pauseHotkeys.Bind(source, new[] { settingsPanel != null ? settingsPanel.gameObject : null, controllerPanel != null ? controllerPanel.PanelRoot : null });
             Refresh();
         }
 
@@ -91,9 +98,10 @@ namespace CPS.KitchenCatch
             if (difficulty != null) difficulty.text = AppSession.Instance?.SelectedDifficulty.ToString() ?? "Easy";
             if (rank != null) rank.text = RankName(current);
             ApplyRankPresentation(current);
-            if (leftHand != null) leftHand.text = "LEFT  " + Mathf.RoundToInt(controller.LastInput.Left.Strength01 * 100) + "%";
-            if (rightHand != null) rightHand.text = "RIGHT  " + Mathf.RoundToInt(controller.LastInput.Right.Strength01 * 100) + "%";
-            if (inputSource != null) inputSource.text = "Simulated Input · Keyboard";
+            ControllerMode mode = controller.Router?.SelectedMode ?? ControllerMode.Keyboard;
+            if (leftHand != null) leftHand.text = HandLabel("LEFT", controller.LastInput.Left, mode);
+            if (rightHand != null) rightHand.text = HandLabel("RIGHT", controller.LastInput.Right, mode);
+            if (inputSource != null) inputSource.text = mode == ControllerMode.Keyboard ? "Simulated Input · Keyboard" : mode == ControllerMode.FSR ? "FSR · Relative press level" : "Load Cell · Estimated Force (N)";
             bool showInputs = controller.State != SessionState.Results;
             if (leftHand != null) leftHand.transform.parent.gameObject.SetActive(showInputs);
             if (rightHand != null) rightHand.transform.parent.gameObject.SetActive(showInputs);
@@ -107,10 +115,12 @@ namespace CPS.KitchenCatch
                     time.color = seconds <= 10 ? new Color(.69f, .13f, .10f) : new Color(.32f, .17f, .10f);
                 }
                 if (score != null) score.text = model.Score.Score.ToString("N0");
-                if (leftHand != null) leftHand.text = "LEFT  " + Mathf.RoundToInt(controller.LastInput.Left.Strength01 * 100) + " /100";
-                if (rightHand != null) rightHand.text = "RIGHT  " + Mathf.RoundToInt(controller.LastInput.Right.Strength01 * 100) + " /100";
+                if (leftHand != null) leftHand.text = HandLabel("LEFT", controller.LastInput.Left, mode);
+                if (rightHand != null) rightHand.text = HandLabel("RIGHT", controller.LastInput.Right, mode);
                 if (leftFill != null) leftFill.fillAmount = Mathf.Clamp01(controller.LastInput.Left.Strength01);
                 if (rightFill != null) rightFill.fillAmount = Mathf.Clamp01(controller.LastInput.Right.Strength01);
+                if (leftFill != null) leftFill.gameObject.SetActive(mode != ControllerMode.LoadCell);
+                if (rightFill != null) rightFill.gameObject.SetActive(mode != ControllerMode.LoadCell);
                 if (streakFill != null) streakFill.fillAmount = Mathf.Clamp01(model.Score.Streak / 12f);
                 if (streakLabel != null) streakLabel.text = model.Score.Streak + " IN A ROW";
                 if (heartImages != null)
@@ -125,6 +135,8 @@ namespace CPS.KitchenCatch
                     controller.State == SessionState.Dying ? "HP depleted" : "");
             if (pauseButton != null) pauseButton.gameObject.SetActive(controller.State == SessionState.Playing && !controller.IsPaused);
             if (resumeButton != null) resumeButton.gameObject.SetActive(controller.IsPaused);
+            if (resumeButton != null) resumeButton.interactable = controller.CanResume;
+            if (controllerNotice != null) controllerNotice.text = controller.InputIssue ?? "Space / Esc\nPause or resume";
             if (pauseOverlay != null) pauseOverlay.SetActive(controller.IsPaused);
             if (controller.IsPaused != wasPaused)
             {
@@ -177,6 +189,10 @@ namespace CPS.KitchenCatch
         private void Pause() => controller?.Pause();
         private void Resume() => controller?.Resume();
         private void OpenSettings() => settingsPanel?.Show();
+        private void OpenController() => controllerPanel?.Show(controller);
+        private static string HandLabel(string side, HandInput hand, ControllerMode mode) => side + "  " +
+            (!hand.Valid && mode != ControllerMode.Keyboard ? "N/A" : mode == ControllerMode.LoadCell ? (hand.ForceN.HasValue ? hand.ForceN.Value.ToString("0.00") + " N" : "N/A") :
+                Mathf.RoundToInt(hand.Strength01 * 100) + "%");
         private void BackToMenu() => controller?.ReturnToMenu();
 
         private static string Praise(int streak) => streak == 2 ? "OK" : streak == 3 ? "Good" : streak == 4 ? "Great" : "Perfect";

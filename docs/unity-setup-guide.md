@@ -4,18 +4,18 @@
 
 - Windows demonstration machine used for verification: Unity `6000.3.25f1`, Universal 2D project.
 - Install `Web Build Support` for that exact Editor version in Unity Hub. The verified module root is `C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\WebGLSupport` and includes `UnityEditor.WebGL.Extensions.dll` plus Emscripten.
-- Project root: the cloned repository root containing `Assets`, `Packages`, and `ProjectSettings`.
+- Open the cloned repository root containing `Assets`, `Packages` and `ProjectSettings`. The separate development checkout used for verification is `C:\Users\Arc\Unity\CPS-Project`.
 - Open `Assets/CPS/Scenes/Boot.unity` before using Play Mode. Boot routes to Main Menu, then the selected profile and difficulty route to Gameplay.
 
 ## Play the current build
 
 1. Create a local nickname or select an existing profile.
 2. Select Easy, Normal, or Hard and choose Start Cooking.
-3. Use `A`/left arrow and `D`/right arrow. Keyboard input is a simulated binary input: released is `0%`, pressed is `100%`.
+3. Choose Controller from Home: Keyboard, FSR, or Load Cell. Keyboard uses `A`/left arrow and `D`/`B`/right arrow: released is `0%`, pressed is `100%`.
 4. Catch food, avoid trash, and keep HP above zero for the 60-second round. Missing food or catching trash costs one HP.
-5. Pause and resume explicitly after browser focus loss. Results offers Restart and Main Menu.
+5. Spacebar/Escape pauses or resumes with a three-second countdown. Resume explicitly after focus loss or sensor recovery. Results offers Restart and Main Menu.
 
-The current game does not report keyboard input as Newtons. Physical-force maximum and average remain unavailable until a real sensor adapter is connected. The external MQTT, Node-RED, and Google Sheets path is outside this Unity-only delivery.
+Keyboard and FSR do not report Newtons. Load Cell reports estimated N only after both sensors are fresh and a requested tare completes. See [USB controller guide](unity-usb-controller-guide.md) for firmware, pins, browser support and Inspector thresholds. This USB delivery does not change MQTT, Node-RED, or the existing Sheets integration.
 
 ## Build WebGL
 
@@ -44,7 +44,7 @@ The Task 8 verification helper is `verification/task8-webgl-server.py`; it binds
 
 ## Current delivery limits
 
-- The licensed production font and audio are still awaiting user-supplied files. Thai glyph/combining-mark acceptance and audio timing, mix, mute/focus, and WebGL autoplay acceptance remain open.
-- The browser build uses keyboard simulation only. Physical sensor, calibrated Newton values, HiveMQ, Node-RED, Google Sheets, and cloud behavior were not claimed or tested.
+- The project uses the supplied font and audio; hardware-dependent sensor latency and calibration still need a physical playtest.
+- USB controllers are implemented for Windows Editor and Web Serial browsers. No real port was opened and no board was flashed during automated verification. Estimated Newton values need validation after assembly.
 - Browser background tabs are not expected to sustain foreground frame timing. Resume explicitly after focus returns.
 - Difficulty feel and spawn fairness still need a hands-on user playtest. No difficulty values were changed without measured evidence.

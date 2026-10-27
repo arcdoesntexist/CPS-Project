@@ -45,13 +45,17 @@ namespace CPS.KitchenCatch
                     if (blocker != null && blocker.activeInHierarchy) return;
             if (EventSystem.current != null && EventSystem.current.currentSelectedGameObject != null &&
                 EventSystem.current.currentSelectedGameObject.GetComponent<InputField>() != null) return;
+            var input = ControllerInput.EnsureExists().Read();
+            StepPractice(input, Time.unscaledDeltaTime);
+        }
+        public void StepPractice(InputSnapshot input, float seconds)
+        {
+            if (mascot == null || body == null || !float.IsFinite(seconds) || seconds <= 0) return;
             float direction = 0f;
-            var keyboard = Keyboard.current;
-            if (keyboard == null) return;
-            if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed) direction -= 1f;
-            if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed) direction += 1f;
+            if (input.Left.Valid && input.Left.Pressed) direction -= 1f;
+            if (input.Right.Valid && input.Right.Pressed) direction += 1f;
             var position = mascot.anchoredPosition;
-            position.x = Mathf.Clamp(position.x + direction * speed * Time.unscaledDeltaTime, leftLimit, rightLimit);
+            position.x = Mathf.Clamp(position.x + direction * speed * seconds, leftLimit, rightLimit);
             mascot.anchoredPosition = position;
             if (Mathf.Approximately(direction, 0f))
             {
@@ -62,7 +66,7 @@ namespace CPS.KitchenCatch
             bool right = direction > 0f;
             body.rectTransform.localScale = new Vector3(right ? 1f : -1f, 1f, 1f);
             if (hat != null) hat.sprite = right ? rightHat : leftHat;
-            animationTime += Time.unscaledDeltaTime;
+            animationTime += seconds;
             if (runFrames != null && runFrames.Length > 0)
                 body.sprite = runFrames[Mathf.FloorToInt(animationTime * 10f) % runFrames.Length];
         }

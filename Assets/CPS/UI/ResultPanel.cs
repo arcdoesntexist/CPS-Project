@@ -60,10 +60,12 @@ namespace CPS.KitchenCatch
             if (balance != null) balance.text = "Both " + (stats?.BothPressedDurationSeconds ?? 0).ToString("0.0") +
                 " s · Left–Right Balance " + (stats?.HasBalance == true ? (stats.LeftBalance01 * 100).ToString("0") + "% / " +
                     ((1 - stats.LeftBalance01) * 100).ToString("0") + "%" : "—");
-            if (forceStatus != null) forceStatus.text = "Simulated Input · " + (shown.InputSource ?? "Keyboard") +
+            bool keyboard = string.IsNullOrEmpty(shown.InputSource) || shown.InputSource == "Keyboard";
+            if (forceStatus != null) forceStatus.text = keyboard ? "Simulated Input · " + (shown.InputSource ?? "Keyboard") +
                 "\nForce (N): " + (stats?.Left?.HasForce == true && stats?.Right?.HasForce == true ?
                     $"L {stats.Left.MeanForceN:0.0}/{stats.Left.MaxForceN:0.0} · R {stats.Right.MeanForceN:0.0}/{stats.Right.MaxForceN:0.0}" :
-                    "— / Sensor not connected");
+                    "— / Sensor not connected") : shown.InputSource == "FSR" ? "FSR · Relative press level\nForce N/A in this mode" :
+                    "Load Cell · Estimated Force (N)\nL " + ForceText(stats?.Left) + " · R " + ForceText(stats?.Right);
             foreach (var label in GetComponentsInChildren<Text>(true)) label.supportRichText = false;
             if (restartButton != null) restartButton.interactable = true;
             if (menuButton != null) menuButton.interactable = true;
@@ -82,8 +84,7 @@ namespace CPS.KitchenCatch
         {
             if (shown == null || controller == null || restartButton != null && !restartButton.interactable) return;
             if (restartButton != null) restartButton.interactable = false;
-            controller.Restart();
-            Hide();
+            if (controller.Restart()) Hide();
         }
 
         public void MainMenu()
@@ -95,8 +96,12 @@ namespace CPS.KitchenCatch
 
         private static string HandText(string title, HandStatistics hand)
         {
+            if (hand?.HasForce == true && !hand.HasStrength)
+                return title + $"\nMean {hand.MeanForceN:0.00} N · Max {hand.MaxForceN:0.00} N\nPressed {hand.PressedDurationSeconds:0.0} s";
             if (hand == null || !hand.HasStrength) return title + "\nMean — · Max —\nPressed 0.0 s";
             return title + $"\nMean {hand.MeanStrength01 * 100:0}% · Max {hand.MaxStrength01 * 100:0}%\nPressed {hand.PressedDurationSeconds:0.0} s";
         }
+        private static string ForceText(HandStatistics hand) => hand?.HasForce == true ? $"{hand.MeanForceN:0.00}/{hand.MaxForceN:0.00}" : "N/A";
+        private void Update() { if (shown != null && controller != null && restartButton != null) restartButton.interactable = controller.CanRestart; }
     }
 }

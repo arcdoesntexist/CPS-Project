@@ -87,7 +87,7 @@ namespace CPS.KitchenCatch
             if (musicSource == null) return;
             string clipName = currentScene == "MainMenu" ? "LobbyMusic_BG" :
                 currentScene == "Gameplay" ? "GameplayMusic_BG" : null;
-            float volume = currentScene == "MainMenu" ? .30f : .32f;
+            float volume = currentScene == "MainMenu" ? .99f : .99f;
             var clip = clipName == null ? null : LoadClip(clipName);
             if (musicSource.clip != clip)
             {
